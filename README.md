@@ -18,24 +18,28 @@ The Iran simulation cleared naive 50% (Brier 0.131). The LLM forecaster
 did not (Brier 0.272). Neither came close to the late Manifold crowd. That
 is the actual result and it is in the repo for anyone to verify.
 
-## This weekend's public predictions (May 1–3, 2026)
+## This weekend's card — 1–3 May 2026
 
-Picks logged before tip-off in
+Selections logged before kick-off in
 [`results/sports_forecasts/weekend_2026_05_01/REPORT.md`](results/sports_forecasts/weekend_2026_05_01/REPORT.md).
+Prices below are best UK high-street (Bet365 / Sky Bet / Ladbrokes / Coral
+agree within a tick or two on these).
 
-| Pick | Market | Bot prob | Vegas no-vig | Edge | EV |
-|---|---|---|---|---|---|
-| **Montreal Canadiens** (home) vs Tampa Bay Lightning, NHL G6 | -105 | 55.8% | 48.4% | +7.4 pp | +8.9% |
-| **Vegas Golden Knights** (away) at Utah Mammoth, NHL G6 | -115 | 56.7% | 51.1% | +5.6 pp | +6.0% |
-| **Manchester United** (home) vs Liverpool, EPL | +130 | 45.5% | 41.2% | +4.3 pp | +4.6% |
-| **Boston Bruins** (home) vs Buffalo Sabres, NHL G6 | -110 | 53.7% | 49.5% | +4.2 pp | +2.5% |
+| Selection | Market | Best price | Decimal | Model fancy | Bookie no-vig | Edge |
+|---|---|---|---|---|---|---|
+| **Montreal Canadiens** to win Game 6 vs Tampa Bay | NHL Match Result | **10/11** | 1.95 | 55.8% | 48.4% | **+7.4 pp** |
+| **Vegas Golden Knights** to win Game 6 at Utah | NHL Match Result | **5/6** | 1.87 | 56.7% | 51.1% | **+5.6 pp** |
+| **Manchester United** to beat Liverpool | EPL 1X2 | **13/10** | 2.30 | 45.5% | 41.2% | **+4.3 pp** |
+| **Boston Bruins** to beat Buffalo Game 6 | NHL Match Result | **10/11** | 1.91 | 53.7% | 49.5% | +4.2 pp |
 
-3-leg parlay (MTL + VGK + MUN): combined decimal **8.40x**, **+20.9% EV**.
-4-leg parlay (above + BOS Bruins): combined decimal **16.03x**, **+23.9% EV**.
+**Treble** (Canadiens + Golden Knights + Man Utd) priced at **8.40**
+(roughly 7/1) — theoretical EV **+20.9%**.
+**4-fold** (above + Bruins) priced at **16.03** (roughly 15/1) —
+theoretical EV **+23.9%**.
 
 **This is not betting advice.** It is an immutable record of what the
-toolkit produced before kick-off. Score-back coming Monday May 4 — good or
-bad. ![weekend picks](docs/images/weekend_picks.png)
+toolkit produced before kick-off. Score-back goes up Monday 4 May —
+win or lose. ![weekend picks](docs/images/weekend_picks.png)
 
 ## Quickstart
 

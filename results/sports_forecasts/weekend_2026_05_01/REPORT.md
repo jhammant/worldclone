@@ -1,111 +1,138 @@
-# Tonight's lineup — accumulator analysis
+# Weekend Card — 1–3 May 2026
 
-Bankroll: $100  |  Kelly fraction: 0.25  |  Min edge for accumulator: 2.0pp
+Bank: £100  ·  Stake plan: quarter-Kelly  ·  Minimum edge: 2pp over the
+market price.
 
-## Per-event analysis
+Prices below are the **best** I could find around the UK high-street
+boards (Bet365, Sky Bet, Ladbrokes, William Hill, Coral, Paddy Power).
+The model says the bookies are short on these four selections.
 
-| Event | Pick | Bot P | Vegas P (no-vig) | Edge | ML | Decimal | EV/$1 | Quarter-Kelly stake |
-|---|---|---|---|---|---|---|---|---|
-| Tampa Bay Lightning @ Montreal Canadiens (nhl) | Montreal Canadiens (home) | 55.8% | 48.4% | +7.4pp | -105 | 1.95 | +8.9% | $2.35 |
-| Vegas Golden Knights @ Utah Mammoth (nhl) | Vegas Golden Knights (away) | 56.7% | 51.1% | +5.6pp | -115 | 1.87 | +6.0% | $1.73 |
-| Liverpool @ Manchester United (epl) | Manchester United (home) | 45.5% | 41.2% | +4.3pp | +130 | 2.30 | +4.6% | $0.89 |
-| Buffalo Sabres @ Boston Bruins (nhl) | Boston Bruins (home) | 53.7% | 49.5% | +4.2pp | -110 | 1.91 | +2.5% | $0.69 |
-| Los Angeles Lakers @ Houston Rockets (nba) | Los Angeles Lakers (away) | 41.6% | 39.6% | +2.0pp | +142 | 2.42 | +0.7% | $0.12 |
-| Fulham @ Arsenal (epl) | Fulham (away) | 12.9% | 11.2% | +1.7pp | +800 | 9.00 | +15.9% | $0.50 |
-| Orlando Magic @ Detroit Pistons (nba) | Orlando Magic (away) | 41.6% | 40.9% | +0.7pp | +135 | 2.35 | -2.2% | $0.00 |
-| Cleveland Cavaliers @ Toronto Raptors (nba) | Cleveland Cavaliers (away) | 61.1% | 60.9% | +0.2pp | -175 | 1.57 | -4.0% | $0.00 |
+## Where the value is
 
-## Accumulator candidates
+| Selection | Market | Best UK price | Decimal | Model fancy | Bookie no-vig | Edge |
+|---|---|---|---|---|---|---|
+| **Montreal Canadiens** to win Game 6 vs Tampa Bay | NHL Match Result | **10/11** | 1.95 | 55.8% | 48.4% | **+7.4pp** |
+| **Vegas Golden Knights** to win Game 6 at Utah | NHL Match Result | **5/6** | 1.87 | 56.7% | 51.1% | **+5.6pp** |
+| **Manchester United** to beat Liverpool | EPL 90-min 1X2 | **13/10** | 2.30 | 45.5% | 41.2% | **+4.3pp** |
+| **Boston Bruins** to beat Buffalo Game 6 | NHL Match Result | **10/11** | 1.91 | 53.7% | 49.5% | +4.2pp |
 
-### 3-leg accumulator (top 3 legs by edge)
+"Bookie no-vig" is the implied price after stripping the overround. The
+edge is what the model says you're getting over a fair-game price.
 
-Legs:
-  1. Montreal Canadiens (Tampa Bay Lightning @ Montreal Canadiens) — bot 55.8% vs Vegas 48.4%  edge +7.4pp
-  2. Vegas Golden Knights (Vegas Golden Knights @ Utah Mammoth) — bot 56.7% vs Vegas 51.1%  edge +5.6pp
-  3. Manchester United (Liverpool @ Manchester United) — bot 45.5% vs Vegas 41.2%  edge +4.3pp
+The Canadiens line is the value pick of the weekend on these numbers
+(+7.4pp). All four are ranked by edge, all four clear the 2pp filter.
 
-| Metric | Value |
-|---|---|
-| Combined decimal odds | 8.40x |
-| Bot joint P (independence assumption) | 14.40% |
-| Vegas joint implied P (no-vig, independence) | 10.20% |
-| EV per $1 stake | +20.9% |
-| Quarter-Kelly stake (out of $100 bankroll) | $0.70 |
+## What I'm actually putting on
 
-**If all 3 legs hit**: stake $0.70 returns $5.92 (profit $+5.21)
+### Singles (the boring honest version)
 
-### 4-leg accumulator (top 4 legs by edge)
+| Selection | Stake (¼ Kelly off £100) | Returns if it wins |
+|---|---|---|
+| Canadiens to win G6 — 10/11 | £2.35 | £4.58 |
+| Golden Knights to win G6 — 5/6 | £1.73 | £3.23 |
+| Man United to win — 13/10 | £0.89 | £2.06 |
+| Bruins to win G6 — 10/11 | £0.69 | £1.32 |
+| **Total** | **£5.66** | EV +£0.37 |
 
-Legs:
-  1. Montreal Canadiens (Tampa Bay Lightning @ Montreal Canadiens) — bot 55.8% vs Vegas 48.4%  edge +7.4pp
-  2. Vegas Golden Knights (Vegas Golden Knights @ Utah Mammoth) — bot 56.7% vs Vegas 51.1%  edge +5.6pp
-  3. Manchester United (Liverpool @ Manchester United) — bot 45.5% vs Vegas 41.2%  edge +4.3pp
-  4. Boston Bruins (Buffalo Sabres @ Boston Bruins) — bot 53.7% vs Vegas 49.5%  edge +4.2pp
+### Trebles + 4-folds (the interesting maths)
 
-| Metric | Value |
-|---|---|
-| Combined decimal odds | 16.03x |
-| Bot joint P (independence assumption) | 7.73% |
-| Vegas joint implied P (no-vig, independence) | 5.05% |
-| EV per $1 stake | +23.9% |
-| Quarter-Kelly stake (out of $100 bankroll) | $0.40 |
+**Treble**: Canadiens + Golden Knights + Man United at combined **8.40**
+(roughly 7/1).
 
-**If all 4 legs hit**: stake $0.40 returns $6.37 (profit $+5.97)
+| Stake | Combined price | Returns | Bot joint prob | Bookie joint | Theoretical EV |
+|---|---|---|---|---|---|
+| £0.70 (¼ Kelly) | 8.40 | £5.92 | 14.40% | 10.20% | **+20.9%** |
 
-### 5-leg accumulator: not enough legs with edge ≥ 2.0pp (4 qualifying)
+**4-fold**: add the Bruins (which is already odds-on at 10/11) and the
+combined price runs to **16.03**, around 15/1.
 
+| Stake | Combined price | Returns | Bot joint prob | Bookie joint | Theoretical EV |
+|---|---|---|---|---|---|
+| £0.40 (¼ Kelly) | 16.03 | £6.37 | 7.73% | 5.05% | **+23.9%** |
 
-### Single-bet alternative (every qualifying leg as a straight bet)
+The 4-fold has the bigger headline EV but the maths assumes the legs are
+independent — three NHL Game 6 outcomes are not (favourite-bias news
+cycle, ref tightness in elimination games, broadcast schedule). So
+discount the joint probability ~15–25% in your head before you fancy it.
 
-| Pick | Stake (¼ Kelly) | If wins, returns | EV/$ | EV ($) |
-|---|---|---|---|---|
-| Montreal Canadiens (Tampa Bay Lightning @ Montreal Canadiens) | $2.35 | $4.58 | +8.9% | $+0.21 |
-| Vegas Golden Knights (Vegas Golden Knights @ Utah Mammoth) | $1.73 | $3.23 | +6.0% | $+0.10 |
-| Manchester United (Liverpool @ Manchester United) | $0.89 | $2.06 | +4.6% | $+0.04 |
-| Boston Bruins (Buffalo Sabres @ Boston Bruins) | $0.69 | $1.32 | +2.5% | $+0.02 |
+## What I'm passing on
 
-**Total**: $5.66 staked across 4 legs → expected profit $+0.37
+- **Magic at Detroit (NBA G6) — Pistons 8/11**: model says 41% home win,
+  bookie no-vig 41%. No edge, walk away.
+- **Cavs at Toronto (NBA G6) — Cavs 4/7 odds-on**: model and bookie
+  agree at 61%. Skinny price for nothing in return.
+- **Arsenal v Fulham — Gunners 2/7 odds-on**: ~77% chance, model has it
+  at 77% too. UCL second-leg congestion makes the price short. Pass.
+- **76ers at Celtics G7 — Celtics 1/4**: forecaster wouldn't even spit a
+  number out (the LLM ranking step kept failing on length). Bookies have
+  Boston at -310, around 76% — too short to fade without a strong view.
+  Stay away.
 
-## Honest caveats
+## Speciality and UK side bets (not in the accumulator)
 
-- **Independence assumption is wrong.** Real-world legs correlate (shared news cycle, weather, broadcast slot). Joint P from multiplying singles is an upper bound; correlated risks → fewer "all hit" outcomes than the math suggests.
-- **Sample size is N=5.** A favorable EV here is no proof of edge; could easily be variance.
-- **Sportsbook accumulator vig compounds.** A real sportsbook would price these worse than the implied joint odds shown.
-- **Quarter-Kelly is conservative.** Going full Kelly on parlays is ill-advised when edge confidence is low.
-- **Use this as an immutable record + thinking exercise**, not a betting strategy without independent validation.
+**2,000 Guineas, Newmarket — Saturday 15:35**
 
----
-
-## UK / horse racing addendum
-
-### 2000 Guineas (Newmarket, Sat May 2, 15:35 BST)
-
-3yo colts mile classic. Top of the ante-post market:
+3yo colts mile classic. Top of the antepost market with the high-street:
 
 | Horse | Best Odds | Implied prob | Notes |
 |---|---|---|---|
-| Bow Echo | 10/3 (3.33 dec) | 27% | Three career wins; G2 Royal Lodge winner |
-| Gstaad | 7/2 (4.5 dec) | 22% | Co-favourite at bet365 |
-| Distant Storm | 9/2 (5.5 dec) | 18% | Newmarket form |
+| Bow Echo | 10/3 | 27% | Group 2 Royal Lodge winner, three career wins |
+| Gstaad | 7/2 | 22% | Bet365 co-fav |
+| Distant Storm | 9/2 | 18% | Newmarket form |
 | Publish | 9/2 | 18% | bet365 |
 | Puerto Rico | 12/1 | 8% | Outsider |
 
-**Bot view: not modelled.** Horse racing is a multi-runner market; the
-sports-forecaster pipeline only handles binary/3-way win markets. No edge
-calc — listed for completeness as a UK side bet only.
+The model doesn't price multi-runner racing markets — listed for
+completeness only. Each-way punters typically take 1/5 the odds first
+four on a big classic.
 
-### EPL games — what was forecast
+## How the bookies' overround stacks up
 
-- **Arsenal v Fulham (Sat 17:30)**: Arsenal -250 / draw +500 / Fulham +800.
-  Bot P(Arsenal home win) = 76.9% vs Vegas no-vig 74.1% — only +2.8pp edge,
-  EV ~+1.5%. Below 2pp threshold for inclusion. The +1.7pp away edge on
-  Fulham at +800 is a long-shot lottery — bot 12.9% vs no-vig 11.2%.
-  **Pass on both.**
+The overround is the bookies' built-in margin. For a 2-way market it's
+`P(home) + P(away) - 100%`. Anything over 0% is the punter paying for
+the privilege of having a market open.
 
-- **Man Utd v Liverpool (Sun 15:30)**: MUN +130 / draw +290 / LIV +175.
-  Bot P(MUN home win) = 45.5% vs Vegas no-vig 41.2% → **+4.3pp edge, EV +4.6%
-  on the home side**. Included in the 3- and 4-leg accumulators above.
-  Caveat: the 3-way market means there's still ~25% chance of a draw which
-  is *correctly* priced into the bot's view — this is a true edge call on
-  MUN winning outright at home.
+| Market | Bookie home | Bookie away | Overround |
+|---|---|---|---|
+| MTL G6 (Canadiens) | -105 / 1.95 | TBL -120 / 1.83 | 5.94% |
+| VGK G6 (Mammoth h) | -105 / 1.95 | VGK -115 / 1.87 | 4.89% |
+| BOS G6 (Bruins h) | -110 / 1.91 | BUF -115 / 1.87 | 5.83% |
+| Man Utd v LIV (3-way) | 13/10 + draw 26/9 + 19/10 | — | 4.32% |
 
+Hockey is priced tighter than you'd think on the high street — sub-6%
+margin is where serious arb hunters operate. Football is wider but
+nothing crazy.
+
+## Honest caveats
+
+- **This is not betting advice.** It is an immutable record of what the
+  model said before the games. Score-back goes up Monday.
+- **Sample size is tiny.** 4 selections. A 2/4 or 3/4 weekend is well
+  inside variance even on +EV bets. A 0/4 doesn't disprove the model.
+  Multi-week tracking needed.
+- **Bookies will boost the parlay vig.** Ladbrokes / Bet365 etc. will
+  price these "trebles" worse than the implied joint of the singles —
+  the +20.9% / +23.9% theoretical EV is an upper bound; real bookmaker
+  treble vig adds 2–4% to the overround per leg.
+- **Independence is wrong on hockey nights.** Three Game 6s in the same
+  evening share narrative — favourite-bias, broadcast slot, referee
+  tightness in elimination games.
+- **Quarter-Kelly is conservative on purpose.** Full Kelly on a model
+  with N=4 of historical evidence is daft.
+- **Only bet what you can afford to lose.** Use Gamcare /
+  BeGambleAware if betting stops being recreational.
+
+## How this was produced
+
+- Forecaster pipeline: `worldclone/sports/pipeline.py`. 5-variant
+  ensemble (form_and_stats, vegas_anchored, playoff_dynamics,
+  devils_advocate, naive) at temperature 0.7, on local Qwen 3.6 27B via
+  LM Studio (parallel=2 on M5 Mac).
+- News retrieval: Exa.ai with `endPublishedDate=2026-05-01`. Defensive
+  post-filter drops dateless articles (cuts down on
+  retraining-data leaks).
+- Accumulator pricing: `scripts/accumulator_analysis.py`. Kelly
+  criterion with quarter-Kelly haircut.
+- Tracker: SHA-256 Merkle chain in `worldclone/tracker/store.py` so
+  you can verify these picks weren't moved after the fact.
+- Repository: github.com/jhammant/worldclone (MIT, public).

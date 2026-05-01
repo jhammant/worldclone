@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 
 from worldclone.scoring.sports import moneyline_to_implied_prob
+from worldclone.sports.uk_odds import american_to_fractional
 
 
 FORECASTS = Path("results/sports_forecasts/weekend_2026_05_01/forecasts.jsonl")
@@ -55,6 +56,7 @@ def load_picks() -> list[dict]:
                     "matchup": f"{g['home_team']} vs {g['away_team']}",
                     "sport": g["sport"].upper(),
                     "bot": bot_h, "vegas": ip_h, "edge_pp": edge_h * 100,
+                    "frac": american_to_fractional(h_ml),
                 })
             else:
                 rows.append({
@@ -62,6 +64,7 @@ def load_picks() -> list[dict]:
                     "matchup": f"{g['away_team']} at {g['home_team']}",
                     "sport": g["sport"].upper(),
                     "bot": bot_a, "vegas": ip_a, "edge_pp": edge_a * 100,
+                    "frac": american_to_fractional(a_ml),
                 })
     rows = [r for r in rows if r["edge_pp"] >= 2.0]
     rows.sort(key=lambda r: r["edge_pp"], reverse=True)
@@ -89,17 +92,21 @@ def plot(rows: list[dict]) -> None:
                 color="#2ca02c", bbox=dict(boxstyle="round,pad=0.3",
                 facecolor="#eaf6ea", edgecolor="#2ca02c", linewidth=0.8))
     ax.set_yticks(y_positions)
-    ax.set_yticklabels([f"{r['sport']}  {r['matchup']}" for r in rows],
-                       fontsize=9)
+    ax.set_yticklabels(
+        [f"{r['sport']}  {r['matchup']}\nbest UK price: {r['frac']}" for r in rows],
+        fontsize=9,
+    )
     ax.set_xlim(0, 80)
-    ax.set_xlabel("Probability of pick winning (%)")
-    ax.set_title("Weekend May 1–3, 2026 — picks publicly logged before tip-off\n"
-                 "3-leg parlay +20.9% EV  ·  4-leg +23.9% EV  ·  scored Monday",
-                 fontsize=12)
+    ax.set_xlabel("Implied probability of selection winning (%)")
+    ax.set_title(
+        "Weekend card 1–3 May 2026 — model fancies vs UK bookies\n"
+        "treble +20.9% EV  ·  4-fold +23.9% EV  ·  score-back Monday",
+        fontsize=12,
+    )
     legend_elems = [
-        Patch(facecolor=bot_color, edgecolor="black", label="Bot probability"),
+        Patch(facecolor=bot_color, edgecolor="black", label="Model fancy"),
         Patch(facecolor=vegas_color, edgecolor="black",
-              label="Vegas no-vig implied"),
+              label="Bookie no-vig"),
     ]
     ax.legend(handles=legend_elems, loc="lower right", framealpha=0.95)
     ax.grid(True, axis="x", alpha=0.25)
