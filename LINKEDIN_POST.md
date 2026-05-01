@@ -1,8 +1,17 @@
 # LinkedIn post draft (UK punter voice)
 
-Three images to attach in order: `docs/images/weekend_picks.png` first
-(the hook), then `docs/images/architecture.png`, then
-`docs/images/boxoffice_calibration.png`.
+**Image stack** (LinkedIn renders multi-image posts as a carousel — order
+matters). Use the three social-ready cards in this order:
+
+1. `docs/images/social_weekend_card.png` — the hook. The four selections
+   with prices, edges, and treble/4-fold totals.
+2. `docs/images/social_results_so_far.png` — proof. Headline numbers
+   across all three domains so the post lands credibly.
+3. `docs/images/social_score_back_monday.png` — the loop-back. Calendar
+   teaser pointing at Monday's follow-up post.
+
+Optional 4th image if you want depth: `docs/images/architecture.png`
+(the engineer-bait diagram). Skip if four feels like too many.
 
 ---
 

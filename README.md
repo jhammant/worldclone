@@ -4,7 +4,9 @@
 > simulation, and Kelly-aware accumulator analysis — pointed at geopolitics,
 > box office, and sports. 100% local on an M5 Mac (Qwen 3.6 27B via LM Studio).
 
-![architecture](docs/images/architecture.png)
+![weekend card](docs/images/social_weekend_card.png)
+
+![results so far](docs/images/social_results_so_far.png)
 
 ## What's in here
 
