@@ -1,0 +1,49 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Runtime artifacts
+data/cache/
+*.log
+checkpoint.jsonl
+
+# Bulky regenerable data
+data/manifold_pool_raw.json
+data/iran_bet_history.json
+data/subset_*.json
+
+# Default-ignore everything under results/, then re-include the canonical
+# public evidence runs below. The pattern requires re-including the parent
+# dirs as well so git can descend into them.
+results/**
+!results/
+!results/iran_pilot/
+!results/iran_pilot/overnight_20260427_2305Z/
+!results/iran_pilot/overnight_20260427_2305Z/**
+!results/film_forecasts/
+!results/film_forecasts/big_clean_20260429_1312Z/
+!results/film_forecasts/big_clean_20260429_1312Z/**
+!results/sports_forecasts/
+!results/sports_forecasts/weekend_2026_05_01/
+!results/sports_forecasts/weekend_2026_05_01/**
+!results/sports_forecasts/nba_20260429_1238Z/
+!results/sports_forecasts/nba_20260429_1238Z/**
+!results/sports_forecasts/tonight_20260429_1502Z/
+!results/sports_forecasts/tonight_20260429_1502Z/**
+
+# Plan files (private)
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

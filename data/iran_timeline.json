@@ -1,0 +1,101 @@
+{
+  "_metadata": {
+    "scenario": "US-Iran 2026 conflict",
+    "narrative_cutoff_date": "2026-03-28",
+    "comment": "Hand-curated dated facts late-2025 to 2026-03-28. Cutoff is intentional: post-Khamenei-assassination so agents have the trigger event, but pre-resolution for all 6 markets. Sources: en.wikipedia.org/wiki/2026_Iran_war, NPR, CNN, Britannica."
+  },
+  "facts": [
+    {"date": "2025-01-20", "fact": "Donald Trump begins second term as 47th President of the United States.", "source": "general"},
+    {"date": "2025-08-15", "fact": "JCPOA remains collapsed since 2018 US withdrawal. Iran's uranium enrichment ongoing at near-weapons-grade levels per IAEA reporting.", "source": "general"},
+    {"date": "2025-10-01", "fact": "Israel and Hezbollah skirmishes continue. Houthi missile launches at Red Sea shipping persist.", "source": "general"},
+    {"date": "2025-12-15", "fact": "Tensions between Iran and Israel escalate. Trump administration signals willingness to back Israeli action against Iranian nuclear sites.", "source": "general"},
+    {"date": "2026-02-15", "fact": "Israel and US conduct joint planning sessions for coordinated strike on Iran's nuclear and leadership infrastructure.", "source": "general"},
+    {"date": "2026-02-28", "fact": "TRIGGER EVENT: US and Israel launch coordinated strikes on Iran. Supreme Leader Ali Khamenei is killed. Multiple Iranian nuclear and command sites damaged.", "source": "wikipedia: 2026_Iran_war"},
+    {"date": "2026-03-01", "fact": "Iran retaliates with massive missile and drone barrage: ~500 ballistic missiles and ~2,000+ drones launched at US bases across the Middle East and Israel.", "source": "wikipedia: 2026_Iran_war"},
+    {"date": "2026-03-02", "fact": "US embassy in Kuwait struck by Iranian drones. US tankers in Persian Gulf also targeted. Israel's Iron Dome and US THAAD batteries intercept majority of incoming projectiles.", "source": "npr"},
+    {"date": "2026-03-03", "fact": "Mojtaba Khamenei (son of slain Supreme Leader) named acting Supreme Leader by Assembly of Experts. Reportedly more militant than his father; inherits crisis mid-stream.", "source": "wikipedia: 2026_Iran_war"},
+    {"date": "2026-03-05", "fact": "DoD confirms 6 US service members killed across Iranian retaliation strikes (most in Kuwait drone attack). IRGC claims to have struck 27 US bases. Several US bases sustain significant damage.", "source": "cnn"},
+    {"date": "2026-03-06", "fact": "President Trump publicly demands Iran's 'unconditional surrender' and threatens to target Iranian civilian energy infrastructure if no agreement is reached. Tehran rejects ultimatum.", "source": "wikipedia: 2026_Iran_war"},
+    {"date": "2026-03-08", "fact": "Vladimir Putin publicly condemns US/Israeli strikes, expresses support for Iran. Russia does NOT commit forces. China issues neutral statement urging de-escalation.", "source": "general"},
+    {"date": "2026-03-10", "fact": "Pakistan signals willingness to mediate between US and Iran via back-channels. Pakistan has working relationships with all parties (US, China, Saudi Arabia, Iran).", "source": "general"},
+    {"date": "2026-03-12", "fact": "US deploys additional Carrier Strike Group to Persian Gulf. Naval blockade of Iranian-flagged tankers in Strait of Hormuz begins.", "source": "general"},
+    {"date": "2026-03-15", "fact": "Hezbollah launches limited rocket barrage from Lebanon at northern Israel. IDF conducts retaliatory strikes in southern Lebanon.", "source": "general"},
+    {"date": "2026-03-19", "fact": "F-35A fighter sustains damage from Iranian air defense fire while operating over Iran; makes emergency landing at coalition base. No US fatalities. Iran claims a hit but does not claim a shoot-down.", "source": "wikipedia: 2026_Iran_war"},
+    {"date": "2026-03-21", "fact": "Trump publicly threatens to target Iranian power grid and oil infrastructure if Iran does not allow Strait of Hormuz to remain open. Stock markets fall.", "source": "general"},
+    {"date": "2026-03-22", "fact": "Iran convenes emergency session of Supreme National Security Council. Reports suggest internal split between IRGC hardliners (continued retaliation) and pragmatists (negotiated pause).", "source": "general"},
+    {"date": "2026-03-24", "fact": "Pakistani PM proposes a temporary ceasefire framework: US suspends infrastructure strikes, Iran halts attacks on US personnel, indirect talks begin. China publicly endorses Pakistani initiative.", "source": "general"},
+    {"date": "2026-03-26", "fact": "Trump cabinet split on response to Pakistani proposal. SecDef and JCS Chairman support pause; National Security Advisor and ambassador to UN urge continued pressure.", "source": "general"},
+    {"date": "2026-03-28", "fact": "31st Marine Expeditionary Unit (~2,500 Marines) arrives in Persian Gulf for Strait of Hormuz operations. Houthis fire fresh ballistic missile salvo at Israel; intercepted by Arrow-3. CUTOFF DATE — simulation begins from this state.", "source": "wikipedia: 2026_Iran_war"}
+  ],
+  "key_actors": [
+    {
+      "id": "trump",
+      "name": "Donald J. Trump",
+      "role": "47th President of the United States",
+      "public_position": "Demands Iran's unconditional surrender. Threatens infrastructure strikes. Wants a 'victory narrative' but is wary of a quagmire.",
+      "private_calculus": "Wants escalation control, not full invasion. Open to selective ground ops (special forces, Hormuz security) for symbolic wins. Casualty tolerance is uncertain — base may turn against drawn-out war.",
+      "drives": ["dominate news cycle", "avoid being seen as weak", "deliver tangible 'win' before midterms"],
+      "model_temperature": 0.95
+    },
+    {
+      "id": "mojtaba_khamenei",
+      "name": "Mojtaba Khamenei",
+      "role": "Acting Supreme Leader of Iran (since March 3 2026)",
+      "public_position": "Vows continued resistance; rhetorically defiant.",
+      "private_calculus": "Politically vulnerable as untested successor. Pressured by IRGC hardliners but also fears regime collapse if war drags on. Needs to demonstrate backbone without provoking infrastructure strikes that would crater the economy.",
+      "drives": ["consolidate domestic legitimacy", "preserve regime", "avoid total economic collapse"],
+      "model_temperature": 0.9
+    },
+    {
+      "id": "irgc_command",
+      "name": "IRGC General Staff",
+      "role": "Iran Revolutionary Guard Corps Command (Tehran)",
+      "public_position": "Wants continued asymmetric retaliation against US assets.",
+      "private_calculus": "Knows Iranian SAM/air-defense capabilities better than US estimates. Wants to preserve missile/drone stockpiles for sustained campaign. Can act semi-independently of civilian leadership.",
+      "drives": ["preserve force structure", "deal asymmetric pain to US", "demonstrate IRGC indispensability"],
+      "model_temperature": 0.85
+    },
+    {
+      "id": "netanyahu",
+      "name": "Benjamin Netanyahu",
+      "role": "Prime Minister of Israel",
+      "public_position": "Full-throated support for continued US/Israeli pressure on Iran.",
+      "private_calculus": "Initiated the Feb 28 strikes. Wants Hezbollah and IRGC permanently weakened. Does not fully control Trump's escalation calculus or endgame.",
+      "drives": ["destroy Iranian nuclear program", "weaken Iranian proxy network", "tie Trump to Israeli war aims"],
+      "model_temperature": 0.85
+    },
+    {
+      "id": "putin",
+      "name": "Vladimir Putin",
+      "role": "President of Russia",
+      "public_position": "Condemns US/Israeli strikes; supports Iran rhetorically.",
+      "private_calculus": "Sees US-Iran war as distraction from Ukraine. Will NOT commit Russian forces. May provide intelligence/diplomatic support to Iran. Privately ambivalent about whether ceasefire serves Russian interests.",
+      "drives": ["exploit US distraction", "preserve Iran as anti-US partner", "avoid direct Russia-US confrontation"],
+      "model_temperature": 0.8
+    },
+    {
+      "id": "pakistan_mediator",
+      "name": "Pakistan PM and ISI Director",
+      "role": "Mediator (proposed ceasefire framework March 24)",
+      "public_position": "Neutral mediator urging de-escalation.",
+      "private_calculus": "Has back-channel knowledge of all parties' red lines. Sees regional stability as existential. Coordinating with China to pressure both sides toward pause.",
+      "drives": ["prevent regional spillover", "elevate Pakistan's diplomatic stature", "secure Chinese economic alignment"],
+      "model_temperature": 0.75
+    }
+  ],
+  "initial_world_state": {
+    "casualties_us_killed": 6,
+    "casualties_iran_killed_estimated": 1500,
+    "us_ground_troops_in_iran": false,
+    "us_strikes_on_iran_infrastructure": false,
+    "us_nuclear_used": false,
+    "iran_nuclear_used": false,
+    "ceasefire_in_effect": false,
+    "us_aircraft_lost_to_iran": [],
+    "us_aircraft_damaged_by_iran": ["F-35A on 2026-03-19 (emergency landing)"],
+    "active_us_marine_deployments": ["31st MEU arrived Persian Gulf 2026-03-28"],
+    "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+    "trump_demand": "unconditional surrender (issued 2026-03-06)",
+    "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+  }
+}

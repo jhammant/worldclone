@@ -1,0 +1,53 @@
+{
+  "accuracy": 1,
+  "brier": 0.13457800000000003,
+  "spread_mae": 7.5,
+  "roi": {
+    "bets_made": 0,
+    "hit_rate": NaN,
+    "profit_dollars": 0.0,
+    "roi_pct": NaN
+  },
+  "rows": [
+    {
+      "id": "nba-2026-04-25-nyk-atl-g4",
+      "matchup": "Atlanta Hawks @ New York Knicks",
+      "date": "2026-04-25",
+      "p_home": 0.584,
+      "predicted_margin": 2.5,
+      "actual_winner": "home",
+      "actual_margin": 16,
+      "vegas_home_ml": -130,
+      "vegas_away_ml": 110
+    },
+    {
+      "id": "nba-2026-04-27-phx-okc-g4",
+      "matchup": "Oklahoma City Thunder @ Phoenix Suns",
+      "date": "2026-04-27",
+      "p_home": 0.31,
+      "predicted_margin": -7.5,
+      "actual_winner": "away",
+      "actual_margin": -9,
+      "vegas_home_ml": 200,
+      "vegas_away_ml": -250
+    },
+    {
+      "id": "nba-2026-04-26-bos-phi",
+      "p_home": 0.27599999999999997,
+      "margin": -8.5,
+      "actual": null
+    },
+    {
+      "id": "nba-2026-04-26-tor-cle",
+      "p_home": 0.40599999999999997,
+      "margin": -4.0,
+      "actual": null
+    },
+    {
+      "id": "nba-2026-04-24-por-sas",
+      "p_home": 0.359,
+      "margin": -4.5,
+      "actual": null
+    }
+  ]
+}

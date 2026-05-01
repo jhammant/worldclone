@@ -1,0 +1,39 @@
+{
+  "n_runs": 15,
+  "probabilities": {
+    "us_ground_troops_iran_2026": 0.4666666666666667,
+    "iran_shoots_down_us_aircraft_by_mar31": 0.0,
+    "trump_boots_on_ground_iran_by_jul4_2026": 0.4666666666666667,
+    "iran_kills_5plus_us_soldiers_by_mar31": 0.0,
+    "trump_nukes_iran_by_apr10": 0.0,
+    "trump_strikes_iran_infrastructure_by_apr12": 0.4666666666666667
+  },
+  "wilson_ci": {
+    "us_ground_troops_iran_2026": [
+      0.24809225259746442,
+      0.6988336984894921
+    ],
+    "iran_shoots_down_us_aircraft_by_mar31": [
+      0.0,
+      0.20388926630434784
+    ],
+    "trump_boots_on_ground_iran_by_jul4_2026": [
+      0.24809225259746442,
+      0.6988336984894921
+    ],
+    "iran_kills_5plus_us_soldiers_by_mar31": [
+      0.0,
+      0.20388926630434784
+    ],
+    "trump_nukes_iran_by_apr10": [
+      0.0,
+      0.20388926630434784
+    ],
+    "trump_strikes_iran_infrastructure_by_apr12": [
+      0.24809225259746442,
+      0.6988336984894921
+    ]
+  },
+  "model": "qwen/qwen3.6-27b",
+  "elapsed_seconds": 33428.82874250412
+}

@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "n_scored": 10,
+    "mape": 0.1593464829886853,
+    "median_ape": 0.13545645530939648,
+    "log_mae": 0.06849103525786412,
+    "within_20pct": 0.8,
+    "within_50pct": 1.0,
+    "ci_coverage_80pct_target": 0.8,
+    "baseline_median_predict_all": 32550000.0,
+    "baseline_mape": 1.0105627812085256
+  },
+  "rows": [
+    {
+      "film": "The Super Mario Galaxy Movie",
+      "release": "2026-04-01",
+      "predicted": 150000000,
+      "ci_low": 95000000,
+      "ci_high": 225000000,
+      "actual": 130900000,
+      "ape": 0.14591291061879297,
+      "log_ae": 0.059151612504924955,
+      "in_ci": true
+    },
+    {
+      "film": "Project Hail Mary (film)",
+      "release": "2026-03-20",
+      "predicted": 61000000,
+      "ci_low": 38000000,
+      "ci_high": 70000000,
+      "actual": 80000000,
+      "ape": 0.2375,
+      "log_ae": 0.11776015198117662,
+      "in_ci": false
+    },
+    {
+      "film": "Hoppers (film)",
+      "release": "2026-03-06",
+      "predicted": 40500000,
+      "ci_low": 22000000,
+      "ci_high": 55000000,
+      "actual": 46000000,
+      "ape": 0.11956521739130435,
+      "log_ae": 0.05530280846690605,
+      "in_ci": true
+    },
+    {
+      "film": "Scream 7",
+      "release": "2026-02-27",
+      "predicted": 52750000,
+      "ci_low": 24000000,
+      "ci_high": 65000000,
+      "actual": 64100000,
+      "ape": 0.17706708268330734,
+      "log_ae": 0.08463556554908713,
+      "in_ci": true
+    },
+    {
+      "film": "The Drama (film)",
+      "release": "2026-04-03",
+      "predicted": 12250000,
+      "ci_low": 2800000,
+      "ci_high": 22000000,
+      "actual": 14000000,
+      "ape": 0.125,
+      "log_ae": 0.05799194697768684,
+      "in_ci": true
+    },
+    {
+      "film": "Reminders of Him (film)",
+      "release": "2026-04-10",
+      "predicted": 18200000,
+      "ci_low": 14500000,
+      "ci_high": 21500000,
+      "actual": 13000000,
+      "ape": 0.4,
+      "log_ae": 0.14612803567823818,
+      "in_ci": false
+    },
+    {
+      "film": "Mickey 17",
+      "release": "2025-03-07",
+      "predicted": 18500000,
+      "ci_low": 9000000,
+      "ci_high": 22000000,
+      "actual": 19100000,
+      "ape": 0.031413612565445025,
+      "log_ae": 0.013861638844713475,
+      "in_ci": true
+    },
+    {
+      "film": "A Working Man (film)",
+      "release": "2025-03-28",
+      "predicted": 15850000,
+      "ci_low": 8000000,
+      "ci_high": 20000000,
+      "actual": 14200000,
+      "ape": 0.11619718309859155,
+      "log_ae": 0.04774092217071324,
+      "in_ci": true
+    },
+    {
+      "film": "Heart Eyes (film)",
+      "release": "2025-02-07",
+      "predicted": 9750000,
+      "ci_low": 3500000,
+      "ci_high": 20000000,
+      "actual": 8500000,
+      "ape": 0.14705882352941177,
+      "log_ae": 0.05958568998424418,
+      "in_ci": true
+    },
+    {
+      "film": "Sinners (2025 film)",
+      "release": "2025-04-18",
+      "predicted": 43500000,
+      "ci_low": 28000000,
+      "ci_high": 54000000,
+      "actual": 48000000,
+      "ape": 0.09375,
+      "log_ae": 0.04275198042095063,
+      "in_ci": true
+    }
+  ]
+}

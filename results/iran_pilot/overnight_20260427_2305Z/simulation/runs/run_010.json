@@ -1,0 +1,706 @@
+{
+  "run_idx": 10,
+  "seed": 52,
+  "elapsed_seconds": 2334.4920778274536,
+  "final_state": {
+    "casualties_us_killed": 207,
+    "casualties_iran_killed_estimated": 5048,
+    "us_ground_troops_in_iran": true,
+    "us_strikes_on_iran_infrastructure": true,
+    "us_nuclear_used": false,
+    "iran_nuclear_used": false,
+    "ceasefire_in_effect": true,
+    "us_aircraft_lost_to_iran": [],
+    "us_aircraft_damaged_by_iran": [
+      "F-35A on 2026-03-19 (emergency landing)"
+    ],
+    "active_us_marine_deployments": [
+      "31st MEU arrived Persian Gulf 2026-03-28"
+    ],
+    "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+    "trump_demand": "unconditional surrender (issued 2026-03-06)",
+    "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+  },
+  "answers": {
+    "us_ground_troops_iran_2026": "YES",
+    "iran_shoots_down_us_aircraft_by_mar31": "NO",
+    "trump_boots_on_ground_iran_by_jul4_2026": "YES",
+    "iran_kills_5plus_us_soldiers_by_mar31": "NO",
+    "trump_nukes_iran_by_apr10": "NO",
+    "trump_strikes_iran_infrastructure_by_apr12": "YES"
+  },
+  "event_log": [
+    "[step 1 | 2026-03-31] The 31st MEU's forward logistics node in the Persian Gulf suffers a direct hit from IRGC cruise missiles, resulting in significant materiel loss and US casualties, effectively shattering the Pakistani ceasefire initiative before it can take hold. President Trump rejects the pause, ordering the seizure of IRGC vessels and threatening total infrastructure destruction, while Mojtaba Khamenei simultaneously authorizes limited strikes on Qatar and Bahrain to demonstrate resilience. The diplomatic off-ramp collapses as both sides escalate militarily, with Russian intelligence sharing failing to prevent the clash and Israeli pressure pushing Washington toward harder targets.",
+    "[step 2 | 2026-04-03] Trump orders the commencement of Operation 'Iron Dome II,' directing naval bombardment of Iranian power grids and oil terminals, while simultaneously ordering the 31st MEU to initiate amphibious assaults on Kharg Island and Abadan. The IRGC attempts to counter with fast-attack craft in the Strait of Hormuz, but US naval superiority and pre-emptive air strikes decimate the flotillas before they can inflict significant damage on the Carrier Strike Group. As US Marines begin landing operations on Iranian soil to seize infrastructure, the conflict transitions from aerial/naval exchange to direct ground combat, shattering any remaining diplomatic off-ramps.",
+    "[step 3 | 2026-04-06] The 31st MEU\u2019s amphibious assault on Kharg Island is repelled with heavy losses by IRGC drone swarms and pre-detonated infrastructure traps, forcing a tactical withdrawal as US Marines fail to secure the terminal. Simultaneously, the US Special Forces raid on Tehran\u2019s Quds Force HQ is aborted due to intense urban resistance and Russian-provided targeting data, while Iranian ballistic missiles strike power grids in Bahrain and Qatar, causing widespread blackouts at key US bases. Netanyahu\u2019s unilateral strikes on Tehran command bunkers deepen the crisis, and the Pakistani ceasefire initiative collapses entirely as Mojtaba Khamenei consolidates regime survival over diplomatic engagement.",
+    "[step 4 | 2026-04-09] The US executes a devastating aerial campaign against Iranian energy infrastructure and air defenses, effectively crippling Iran's ability to fund the war while neutralizing key radar sites in Isfahan and Mashhad. Simultaneously, the IDF launches a massive offensive in Lebanon, destroying Hezbollah's tunnel networks and command structures, while Iranian missile salvos saturate defenses in Qatar and Bahrain, inflicting heavy casualties on US forward bases despite successful intercepts. The combination of US air dominance, the collapse of Iranian economic capacity, and the destruction of Hezbollah's capabilities forces Mojtaba Khamenei to halt further offensive operations to preserve the regime, though no formal ceasefire is declared.",
+    "[step 5 | 2026-04-12] Mojtaba Khamenei\u2019s unilateral halt of offensive missile strikes against US bases creates a sudden, tense lull in the Persian Gulf, allowing Trump to pivot fully to 'Operation Blackout' without facing immediate retaliation. The US 31st MEU executes an orderly withdrawal from the Kharg Island littoral to avoid entrapment, while sustained US air campaigns systematically dismantle Tehran\u2019s remaining power grid nodes. In Lebanon, the IDF successfully secures the Litani River valley, effectively neutralizing Hezbollah's northern command structure, while Russian ISR support helps the IRGC relocate deep-strike assets to mountainous silos, preserving them from US airstrikes.",
+    "[step 6 | 2026-04-15] The US executes 'Decapitation Strike Alpha,' devastating IRGC leadership bunkers and the Fordow nuclear facility, while simultaneously neutralizing the IRGC's 'Operation Iron Rain' underwater assets through pre-emptive sonar sweeps and depth charge barrages in the Strait of Hormuz. Although sleeper cells in Baghdad and Beirut carry out coordinated suicide bombings that inflict casualties on coalition logistics hubs, the strategic initiative remains firmly with the US and Israel, who degrade Iran's remaining deep-strike capabilities in the Alborz Mountains. Russia's leaks regarding civilian infrastructure damage spark international condemnation but fail to halt the US military campaign, as Trump refuses to soften his ultimatum in the face of what he frames as regime survival tactics. The 31st MEU holds its position in the Gulf, awaiting the outcome of the 48-hour surrender demand, while the Pakistani ceasefire proposal is effectively ignored by both belligerents amidst the intensifying bombardment.",
+    "[step 7 | 2026-04-18] Mojtaba Khamenei\u2019s 'Operation Martyrdom Hour' is preemptively neutralized as US Special Operations forces and Israeli intelligence dismantle the sleeper cells in Iraq and Lebanon before launch, resulting in minimal damage but significant IRGC leadership losses. Meanwhile, the IRGC's 'Shadow Swarm' attacks in the Gulf inflict minor logistical delays on US Marines but fail to threaten the Carrier Strike Group, whose electronic warfare systems easily deflect the thermobaric drone salvo. President Trump\u2019s deployment of the 1st Armored Division to the littoral states establishes a massive, undeniable ground threat, while the release of Russian propaganda regarding civilian infrastructure fails to halt the military campaign or sway US public opinion. The Pakistani mediation attempt is ignored as both sides dig in for a final, decisive conventional confrontation.",
+    "[step 8 | 2026-04-21] The US 1st Armored Division crosses the Iraqi border and seizes the Mehran crossing, cementing the flag of ground invasion, while B-1B bombers and Israeli F-35s obliterate remaining IRGC command nodes and nuclear facilities at Natanz. Mojtaba Khamenei\u2019s attempt to trade hostages for immunity fails as Trump ignores the offer, prioritizing total regime collapse, though the IRGC successfully sabotages key oil infrastructure in Khuzestan to deny economic value to US forces. Russian leaks regarding civilian targets generate international condemnation but fail to halt the military momentum, as the US and Israel press their advantage with overwhelming air and ground power.",
+    "[step 9 | 2026-04-24] The IRGC launches 'Operation Martyrdom Hour' prematurely, firing remaining Qiam-1 missiles at US armored positions near Mehran and launching drone swarms against the Carrier Strike Group; however, US Patriot and THAAD batteries intercept the vast majority of projectiles, and naval defenses neutralize the drone threat with minimal damage to US assets. Simultaneously, Mojtaba Khamenei issues clandestine orders to halt offensive operations and hide remaining assets, creating a contradictory battlefield reality where Iranian conventional forces are being decimated by US/Israeli air power while leadership attempts to freeze the conflict. The US 1st Armored Division advances under heavy but degraded fire, securing the Mehran crossing firmly as the Pakistani mediation effort fails to gain traction amidst the chaos of the final missile barrage.",
+    "[step 10 | 2026-04-27] The US 1st Armored Division advances rapidly toward Qom, encountering sporadic but effective IED attacks and cyber-disruptions on supply lines orchestrated by the IRGC's 'Protocol Silent Earth,' resulting in significant logistical friction but no halt to the advance. Simultaneously, widespread sabotage of Khuzestan oil infrastructure by Basij militias triggers severe environmental hazards and economic denial, validating Pakistan's warnings of a regional catastrophe. Amidst this chaos, Russia successfully brokers a clandestine backchannel agreement with Mojtaba Khamenei to accept a ceasefire framework in exchange for regime survival, while Trump, facing mounting domestic pressure and the threat of a protracted quagmire, agrees to a 48-hour pause to negotiate terms rather than risk total war with China and Russia."
+  ],
+  "step_log": [
+    {
+      "step": 1,
+      "date": "2026-03-31",
+      "proposals": [
+        {
+          "actor": "putin",
+          "action": "Instruct the FSB and GRU to immediately establish a secure, encrypted communication channel with Mojtaba Khamenei's inner circle via Tehran, offering real-time intelligence on US Navy carrier positions and potential strike vectors in the Persian Gulf, while simultaneously sending a private diplomatic note to Beijing urging them to accelerate the Pakistani ceasefire proposal to force a US pause.",
+          "reasoning": "The United States is distracted and bleeding soft power in the Middle East; by arming Tehran with critical intelligence without committing Russian boots on the ground, I can bleed the US military budget and political will while keeping Iran alive as a strategic thorn in Washington's side, thereby diverting American attention away from our ongoing operations in Ukraine."
+        },
+        {
+          "actor": "pakistan_mediator",
+          "action": "I immediately instruct the ISI Director to activate our 'Qandahari' back-channel to Mojtaba Khamenei, conveying that Beijing will only guarantee the security of Pakistan's western border if Tehran accepts a 72-hour unilateral pause on ballistic missile launches in exchange for my direct personal envoy meeting with General Milley in Islamabad to negotiate a mutual de-escalation framework. Simultaneously, I order the Pakistan Army to reinforce the Durand Line with two additional infantry brigades to signal to Washington that we are securing the flank, thereby removing their primary strategic anxiety about a power vacuum.",
+          "reasoning": "Mojtaba is volatile and needs a face-saving off-ramp that doesn't look like surrender to his hardline IRGC base; by linking Chinese economic leverage to immediate border security guarantees, I force the pragmatists in Tehran to isolate the hawks. For Washington, demonstrating active border containment alleviates their fear of spillover, making the ceasefire proposal politically palatable for SecDef and the JCS to endorse over the hawkish National Security Advisor's objections."
+        },
+        {
+          "actor": "mojtaba_khamenei",
+          "action": "Authorize the IRGC Quds Force to initiate a 'controlled escalation' protocol: order precise, limited missile strikes on US logistical hubs in Qatar and Bahrain (excluding personnel-dense living quarters) to demonstrate capability and deny the US a free hand, while simultaneously instructing the Foreign Ministry to send a formal, conditional acceptance of the Pakistani ceasefire framework through back channels to Beijing, stipulating that the suspension of US strikes on energy infrastructure is the non-negotiable prerequisite for halting Iranian retaliation.",
+          "reasoning": "I must satisfy the IRGC hardliners' demand for visible strength by striking US assets, proving we are not broken, while secretly opening a diplomatic off-ramp to prevent Trump from hitting our power grid and causing the economic collapse that would topple my fragile new regime."
+        },
+        {
+          "actor": "netanyahu",
+          "action": "Issue a public statement via social media and press briefing rejecting the Pakistani ceasefire proposal as a 'trap to save the Islamic Republic,' and privately urge President Trump to proceed immediately with the destruction of Iran's civilian power grid and oil export terminals, arguing that Mojtaba Khamenei's hardline stance proves diplomacy is dead and only maximum pain will force capitulation.",
+          "reasoning": "We struck to win, not to negotiate; accepting a pause now hands Iran the breathing room to reconstitute its nuclear program and punish our allies. The death of the Supreme Leader is a window of opportunity we must exploit by collapsing their economy before the world turns against us."
+        },
+        {
+          "actor": "trump",
+          "action": "Issue an immediate 'Maximum Pressure' directive to the National Guard and National Security Council: Authorize the 31st MEU to conduct 'Operation Guardian Shield,' a kinetic enforcement of the Strait of Hormuz blockade. Specifically, order Special Operations Forces to board and seize three Iranian Revolutionary Guard Corps (IRGC) fast attack craft attempting to run the blockade, disabling their engines and dragging them to USS Abraham Lincoln for inspection. Simultaneously, go on prime-time television to reject the Pakistani ceasefire proposal as a 'weak excuse for Tehran's terrorism,' declaring that the US will 'take every hill' in the Gulf to ensure freedom of navigation, and announce that if one more US soldier is harmed, we will 'delete' Iran's power grid.",
+          "reasoning": "We cannot look weak right now; the markets are crashing and the base is watching. If we pause now, Mojtaba Khamenei thinks he can bully us, but if we take his boats and show total dominance in the Gulf, we force them to the table on our terms, not Pakistan's."
+        },
+        {
+          "actor": "irgc_command",
+          "action": "Authorize the IRGC Aerospace Force to execute a low-profile, precision-guided missile strike targeting the logistical command node of the newly arrived 31st Marine Expeditionary Unit in the Persian Gulf, utilizing a mix of cruise missiles and loitering munitions to inflict material damage and casualties without triggering an immediate escalation to all-out war. Simultaneously, issue a private diplomatic note to Pakistani mediators stating that Tehran is 'studying' their proposal, effectively buying time while demonstrating to Mojtaba Khamenei and the public that the IRGC remains the primary instrument of deterrence against American boots on the ground.",
+          "reasoning": "The arrival of the 31st MEU represents a direct threat to our coastal defense perimeter and our leverage; we must demonstrate that our air defenses and missile capabilities remain potent and capable of inflicting unacceptable costs on US ground forces before any ceasefire is considered. By striking logistics rather than population centers or major airbases, we preserve our long-range ballistic stockpiles for future strategic needs while sending a clear message that the Strait of Hormuz is not a free highway for US amphibious operations."
+        }
+      ],
+      "narrative": "The 31st MEU's forward logistics node in the Persian Gulf suffers a direct hit from IRGC cruise missiles, resulting in significant materiel loss and US casualties, effectively shattering the Pakistani ceasefire initiative before it can take hold. President Trump rejects the pause, ordering the seizure of IRGC vessels and threatening total infrastructure destruction, while Mojtaba Khamenei simultaneously authorizes limited strikes on Qatar and Bahrain to demonstrate resilience. The diplomatic off-ramp collapses as both sides escalate militarily, with Russian intelligence sharing failing to prevent the clash and Israeli pressure pushing Washington toward harder targets.",
+      "delta": {
+        "casualties_us_killed_delta": 14,
+        "casualties_iran_killed_estimated_delta": 3,
+        "us_ground_troops_in_iran": false,
+        "us_strikes_on_iran_infrastructure": false,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_event": ""
+      },
+      "state_after": {
+        "casualties_us_killed": 20,
+        "casualties_iran_killed_estimated": 1503,
+        "us_ground_troops_in_iran": false,
+        "us_strikes_on_iran_infrastructure": false,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_to_iran": [],
+        "us_aircraft_damaged_by_iran": [
+          "F-35A on 2026-03-19 (emergency landing)"
+        ],
+        "active_us_marine_deployments": [
+          "31st MEU arrived Persian Gulf 2026-03-28"
+        ],
+        "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+        "trump_demand": "unconditional surrender (issued 2026-03-06)",
+        "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+      }
+    },
+    {
+      "step": 2,
+      "date": "2026-04-03",
+      "proposals": [
+        {
+          "actor": "irgc_command",
+          "action": "Order the immediate execution of Operation 'Silent Tide': deploy three fast-attack craft flotillas armed with supersonic anti-ship missiles and heavy machine guns to infiltrate the shallow waters of the Persian Gulf, specifically targeting the exposed flanks of the 31st MEU's amphibious assault ships. Simultaneously, activate hidden coastal missile batteries in the UAE border region to fire decoy salvos at Israeli Iron Dome sites, drawing attention away from the naval strike. Issue a public statement claiming the MEU strike was a defensive measure to 'protect Iranian sovereign waters from American aggression,' while privately instructing drone commanders to hold back 40% of the remaining Shahed-136 inventory for a second, coordinated wave only if US Navy forces attempt a direct counter-attack on Iranian ports.",
+          "reasoning": "We must bleed the American Marine contingent before they can establish a beachhead, proving that the Persian Gulf is a moat, not a highway. By holding back our drone stockpile and using asymmetric naval tactics, we preserve our strategic reserves while inflicting disproportionate damage on high-value US assets, forcing Washington to overreact and exposing their logistical vulnerabilities."
+        },
+        {
+          "actor": "pakistan_mediator",
+          "action": "Issue a formal emergency diplomatic note to Beijing and Riyadh, invoking the China-Pakistan Economic Corridor (CPEC) security protocol to demand immediate joint naval patrols in the Arabian Sea to block IRGC asymmetric warfare assets, while simultaneously authorizing the ISI to leak intelligence regarding Mojtaba Khamenei's internal weakness to US National Security Council hardliners, framing a negotiated settlement as the only way to secure Pakistan's western border against Iranian refugee flows and spillover instability.",
+          "reasoning": "With the ceasefire shattered and US forces bleeding, I must leverage China's economic leverage to physically contain the conflict's spread while using my unique intelligence access to force Washington's pragmatists to realize that 'unconditional surrender' is a fantasy that will only ignite a regional war Pakistan cannot survive. We are no longer just mediators; we are the firewall between a regional conflagration and total collapse."
+        },
+        {
+          "actor": "netanyahu",
+          "action": "Authorize the IDF to launch immediate, high-yield airstrikes targeting Hezbollah's primary command bunkers in southern Lebanon and key IRGC Revolutionary Guard logistics hubs in Damascus, explicitly coordinating timing with US Central Command to maximize the paralysis of Iran's northern and eastern proxy networks before Tehran can redeploy reinforcements.",
+          "reasoning": "With the diplomatic off-ramp shattered and Trump now fully committed to total infrastructure destruction, we must exploit this window of opportunity to permanently cripple the IRGC's land-based proxy network before they can recover. We cannot allow Tehran to consolidate its defenses while Washington hesitates; striking Hezbollah now ensures that any future Iranian retaliation is blinded by the loss of its most potent northern deterrent."
+        },
+        {
+          "actor": "putin",
+          "action": "Authorize the GRU to establish a covert, encrypted communication channel with Mojtaba Khamenei, offering to share specific, real-time US carrier battle group coordinates and logistical vulnerabilities in exchange for Tehran committing to a strategic pause in ballistic missile launches against US bases in the Persian Gulf, explicitly framing this as a necessary measure to prevent the conflict from spiraling into a total war that would destabilize the region and benefit no one.",
+          "reasoning": "I must ensure Iran remains a viable, albeit weakened, thorn in the side of the West without collapsing into chaos that requires my direct military intervention. By providing just enough intelligence to allow Tehran to save face and survive the immediate pressure, I keep the US bogged down in a draining attrition war rather than a decisive victory, preserving Russia's strategic leverage and keeping the American focus firmly on the Middle East rather than Ukraine."
+        },
+        {
+          "actor": "mojtaba_khamenei",
+          "action": "Authorize the IRGC Navy to deploy newly modified Shiam-class fast attack craft equipped with decoy systems and electronic warfare jamming pods to shadow and harass US Carrier Strike Group elements in the Strait of Hormuz, while simultaneously ordering the immediate cessation of missile launches against US bases to preserve strategic reserves. Issue a public decree framing this as 'strategic patience' rather than retreat, demanding the US lift the naval blockade as the sole condition for halting Iranian coastal defenses.",
+          "reasoning": "I cannot allow the IRGC's reckless provocation to burn our remaining capital, yet I must demonstrate that the regime remains the master of its territory by harassing the American fleet without triggering an all-out war that would destroy the economy. By shifting from active missile barrages to defensive harassment and tying de-escalation strictly to the blockade, I appease the hardliners' desire for resistance while buying myself diplomatic space to prevent the total collapse of our infrastructure."
+        },
+        {
+          "actor": "trump",
+          "action": "Authorize Operation 'Iron Dome II': Order the 31st MEU to initiate amphibious assaults on key Iranian oil export terminals in Abadan and Kharg Island to seize them as physical leverage, while simultaneously directing the Navy to conduct heavy bombardment of Iran\u2019s main power generation facilities in Tehran and Isfahan to impose immediate economic paralysis.",
+          "reasoning": "The Khamenei boy thinks he can hit our logistics and get away with it? That ends now. We\u2019re going to turn off the lights and take the oil, showing the world who\u2019s really in charge and forcing Tehran to beg for mercy before the midterms."
+        }
+      ],
+      "narrative": "Trump orders the commencement of Operation 'Iron Dome II,' directing naval bombardment of Iranian power grids and oil terminals, while simultaneously ordering the 31st MEU to initiate amphibious assaults on Kharg Island and Abadan. The IRGC attempts to counter with fast-attack craft in the Strait of Hormuz, but US naval superiority and pre-emptive air strikes decimate the flotillas before they can inflict significant damage on the Carrier Strike Group. As US Marines begin landing operations on Iranian soil to seize infrastructure, the conflict transitions from aerial/naval exchange to direct ground combat, shattering any remaining diplomatic off-ramps.",
+      "delta": {
+        "casualties_us_killed_delta": 15,
+        "casualties_iran_killed_estimated_delta": 450,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_event": ""
+      },
+      "state_after": {
+        "casualties_us_killed": 35,
+        "casualties_iran_killed_estimated": 1953,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_to_iran": [],
+        "us_aircraft_damaged_by_iran": [
+          "F-35A on 2026-03-19 (emergency landing)"
+        ],
+        "active_us_marine_deployments": [
+          "31st MEU arrived Persian Gulf 2026-03-28"
+        ],
+        "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+        "trump_demand": "unconditional surrender (issued 2026-03-06)",
+        "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+      }
+    },
+    {
+      "step": 3,
+      "date": "2026-04-06",
+      "proposals": [
+        {
+          "actor": "pakistan_mediator",
+          "action": "Immediately convene an emergency trilateral summit in Islamabad with President Biden (via secure video link representing US continuity interests), Chinese Premier Li Qiang, and Iranian Foreign Minister Araghchi, leveraging my direct line to the Pakistani Army Chief to guarantee physical security for Iranian delegates. Simultaneously, activate the 'Karachi Corridor' protocol: offer to host a neutral demilitarized zone for the immediate exchange of US POWs and the burial of the dead, while authorizing the ISI to transmit a private, encrypted warning to Mojtaba Khamenei that Pakistan will not provide airspace or sanctuary for retaliatory strikes against Saudi Arabia or the UAE if he refuses this humanitarian pause, effectively threatening regional spillover to force his hand.",
+          "reasoning": "With the US Marines on Iranian soil and Trump's rhetoric spiraling toward total annihilation, standard diplomacy is dead; I must use Pakistan's geographic chokehold and our relationship with Beijing to create a 'humanitarian firewall' that forces a temporary cessation of fire, preventing the conflict from engulfing the entire Gulf and destroying China's Belt and Road investments."
+        },
+        {
+          "actor": "mojtaba_khamenei",
+          "action": "Issue Supreme Directive No. 1 to the IRGC Ground Forces and Basij militia: authorize the immediate detonation of pre-positioned explosives at the Abadan Oil Refinery and Kharg Island terminal infrastructure to deny these assets to US forces, while simultaneously ordering the recall of all frontline IRGC units from the Kharg perimeter to defend Tehran, Isfahan, and the Supreme Leader's residence, effectively trading economic assets for regime survival.",
+          "reasoning": "I will not surrender my father's legacy or allow foreign boots to occupy Iranian soil unchallenged, but I cannot risk the collapse of the state if Kharg falls intact to the Americans. By scorching the ground we retreat from, I demonstrate defiance to the hardliners while preserving our military core to protect the capital and ensure the regime outlives this war."
+        },
+        {
+          "actor": "putin",
+          "action": "Issue a formal diplomatic note to the United Nations Security Council demanding an immediate humanitarian ceasefire and the withdrawal of US forces from Iranian territory, while simultaneously accelerating the deployment of Su-35 fighters to the Persian Gulf airspace under the guise of 'protecting Russian diplomatic and commercial interests,' and authorizing the GRU to provide real-time targeting data on US naval positions to the IRGC via secure satellite uplinks.",
+          "reasoning": "I must exploit the American overextension in the Gulf to bleed their resources and political capital without triggering a direct NATO-Russia war. By positioning Russia as the sole voice of restraint while actively enabling Iranian resistance, I ensure the United States remains trapped in a costly quagmire that distracts from their support for Ukraine and isolates them diplomatically."
+        },
+        {
+          "actor": "trump",
+          "action": "Authorize a limited Special Forces raid on the IRGC's Quds Force headquarters in Tehran to capture senior commanders, while simultaneously ordering the 31st MEU to secure the Kharg Island oil terminals and declare them 'US-protected neutral zones' to begin stabilizing global oil prices, framing the operation as a precise decapitation and resource stabilization mission rather than a full-scale invasion.",
+          "reasoning": "We need a big, beautiful win for the base before the midterms, but I'm not interested in a Vietnam-style quagmire. Securing the oil terminals protects the economy, and grabbing those Quds guys shows the world\u2014and Mojtaba\u2014that we are dominant, precise, and in total control."
+        },
+        {
+          "actor": "netanyahu",
+          "action": "I issue a public statement declaring that the seizure of Kharg Island is the 'final nail in the coffin' of Iran's nuclear threat, while simultaneously directing the IDF to launch a massive, unprovoked aerial bombardment of the IRGC's remaining command bunkers in underground Tehran, explicitly stating that this operation will continue until Mojtaba Khamenei is removed from power, thereby forcing the US to maintain maximum pressure and preventing any diplomatic de-escalation.",
+          "reasoning": "We must ensure that the US does not pause now that the ground is broken; by escalating the strike against the leadership vacuum in Tehran, I tie Washington's hand to total victory, ensuring that Hezbollah and the IRGC are permanently dismantled rather than merely contained. The world must see that resistance is futile, and Trump needs this momentum to justify the escalation he has already begun."
+        },
+        {
+          "actor": "irgc_command",
+          "action": "Activate 'Operation Qalam' (The Pen): Order the immediate firing of 120 long-range Ghadir ballistic missiles equipped with specialized bunker-busting warheads, targeting not US military bases, but the primary electrical sub-stations and switchyards of the US 5th Fleet headquarters in Bahrain and the logistical hub at Al Udeid Air Base in Qatar. Simultaneously, deploy 400 Shahed-136 drones as a dense saturation swarm against the incoming US Marine landing craft at Kharg Island to disrupt the amphibious assault vectors, while instructing all IRGC ground commanders to execute 'Mosaic Defense'\u2014abandoning fixed perimeter defenses and transitioning to decentralized, cell-based guerrilla warfare within urban centers to negate US air superiority and maximize civilian collateral damage as a deterrent.",
+          "reasoning": "We must demonstrate that while the US can bomb our infrastructure, we can turn the lights out on their entire regional forward presence, making the cost of occupation politically unsustainable for Washington. By shattering the logistics of the invasion force with precision strikes on power and supply, and turning Kharg into a killing zone for amphibious landings, we prove the IRGC is the only shield capable of inflicting decisive pain on the enemy."
+        }
+      ],
+      "narrative": "The 31st MEU\u2019s amphibious assault on Kharg Island is repelled with heavy losses by IRGC drone swarms and pre-detonated infrastructure traps, forcing a tactical withdrawal as US Marines fail to secure the terminal. Simultaneously, the US Special Forces raid on Tehran\u2019s Quds Force HQ is aborted due to intense urban resistance and Russian-provided targeting data, while Iranian ballistic missiles strike power grids in Bahrain and Qatar, causing widespread blackouts at key US bases. Netanyahu\u2019s unilateral strikes on Tehran command bunkers deepen the crisis, and the Pakistani ceasefire initiative collapses entirely as Mojtaba Khamenei consolidates regime survival over diplomatic engagement.",
+      "delta": {
+        "casualties_us_killed_delta": 42,
+        "casualties_iran_killed_estimated_delta": 180,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_event": ""
+      },
+      "state_after": {
+        "casualties_us_killed": 77,
+        "casualties_iran_killed_estimated": 2133,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_to_iran": [],
+        "us_aircraft_damaged_by_iran": [
+          "F-35A on 2026-03-19 (emergency landing)"
+        ],
+        "active_us_marine_deployments": [
+          "31st MEU arrived Persian Gulf 2026-03-28"
+        ],
+        "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+        "trump_demand": "unconditional surrender (issued 2026-03-06)",
+        "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+      }
+    },
+    {
+      "step": 4,
+      "date": "2026-04-09",
+      "proposals": [
+        {
+          "actor": "pakistan_mediator",
+          "action": "Immediately invoke the China-Pakistan Strategic Partnership to request Beijing deploy naval assets to the Indian Ocean to establish a 'Humanitarian Corridor' for Persian Gulf energy shipments, while simultaneously activating RAWA (Research and Analysis Wing) back-channels to deliver a classified warning to Mojtaba Khamenei: Pakistan will open its borders to refugee flows and allow limited Iranian drone overflights if Tehran agrees to a 48-hour humanitarian pause, leveraging China's economic leverage to force Washington's hand.",
+          "reasoning": "With the US military overextended after the Kharg failure and Iran desperate for legitimacy, I must pivot from mediation to crisis containment by using China's naval presence to secure energy flows\u2014appealing to US economic interests\u2014while offering Tehran a face-saving diplomatic off-ramp that avoids total regime collapse."
+        },
+        {
+          "actor": "irgc_command",
+          "action": "Order the immediate activation of the IRGC\u2019s 'Desert Storm' reserve missile batteries and launch a coordinated, massed salvo of 150+ medium-range ballistic missiles and loitering munitions targeting the forward operating bases of the 31st MEU in the Persian Gulf and the airfields supporting Operation Iron Dome II in Bahrain and Qatar, specifically aiming to saturate THAAD and Patriot interceptors with decoys and warheads to inflict maximum attrition on US ground forces.",
+          "reasoning": "With the 31st MEU exposed and US air superiority threatened by our surviving Bavar-373 batteries, we must exploit this window of tactical vulnerability to bleed American manpower and equipment, proving that direct ground invasion is untenable and forcing Washington to reconsider the cost of occupation."
+        },
+        {
+          "actor": "putin",
+          "action": "Order the Russian General Staff to transmit real-time radar data and electronic warfare signatures of US carrier strike groups in the Persian Gulf to Iran's IRGC via secure back-channels, while simultaneously issuing a private diplomatic note to Beijing urging immediate activation of a UN Security Council emergency session to demand a ceasefire, thereby forcing the US to choose between fighting a war with Russian-intelligence-aided Iranian defenses or facing a unified Sino-Russian diplomatic blockade.",
+          "reasoning": "The US is overextended and bleeding legitimacy; by supplying Iran with just enough intelligence to inflict painful, visible casualties on American assets without committing Russian troops, I ensure Washington faces a quagmire that distracts them from Ukraine while I remain plausibly deniable. Simultaneously, leveraging China to push for a UN vote isolates the US diplomatically, turning their military aggression into a political liability on the global stage."
+        },
+        {
+          "actor": "mojtaba_khamenei",
+          "action": "Order the IRGC and Basij militias to initiate a total nationwide general strike and shutdown of all remaining operational oil refineries and export terminals, while simultaneously authorizing the firing of medium-range ballistic missiles at the Al Udeid Air Base in Qatar and the Prince Sultan Air Base in Saudi Arabia to force the withdrawal of US coalition forces from the Gulf.",
+          "reasoning": "With the Kharg Island assault repelled and my legitimacy hanging by a thread, I must prove that Iran cannot be conquered by making the occupation militarily costly and economically worthless for the Americans. Burning our own assets denies Trump the prize of 'decapitating' our economy and signals to the hardliners that I possess the resolve to fight to the bitter end, even if it means destroying what remains of our infrastructure."
+        },
+        {
+          "actor": "trump",
+          "action": "Order the immediate launch of 'Maximum Pressure' cruise missile and bunker-busting bomb strikes against Iran's primary oil refineries (Abadan, Tehran, Isfahan) and strategic power generation facilities, explicitly bypassing the Strait of Hormuz for now to focus on crippling Iran's war economy; simultaneously issue a televised address declaring that Mojtaba Khamenei has chosen total destruction over surrender, framing the strikes as a necessary step to break Iran's will before midterms while avoiding further expensive ground assaults.",
+          "reasoning": "We tried the boots on the ground, and it was a disaster\u2014too many boys hurt, bad optics. Now we hit their wallet and their lights hard, real hard, so they know they can't win this. We don't need an invasion; we need them to beg for a deal so I can say I won."
+        },
+        {
+          "actor": "netanyahu",
+          "action": "Authorize the IDF to launch 'Operation Northern Cleansing': a massive, coordinated air and artillery campaign targeting Hezbollah\u2019s entire tunnel network, command bunkers, and rocket storage facilities in Southern Lebanon, while simultaneously ordering US Central Command to strike Iran\u2019s air defense radar sites in Isfahan and Mashhad to blind their remaining retaliatory capabilities.",
+          "reasoning": "With the US bogged down in the Strait of Hormuz, I must ensure Hezbollah cannot exploit this distraction to decimate Israeli cities; we will finish the job in the North while providing Trump with the decisive military breakthrough he needs to claim victory in Tehran. This dual-pronged offensive severs Iran\u2019s northern proxy arm and cripples its air defenses, forcing Mojtaba Khamenei into a defensive posture where he has no choice but to negotiate on our terms."
+        }
+      ],
+      "narrative": "The US executes a devastating aerial campaign against Iranian energy infrastructure and air defenses, effectively crippling Iran's ability to fund the war while neutralizing key radar sites in Isfahan and Mashhad. Simultaneously, the IDF launches a massive offensive in Lebanon, destroying Hezbollah's tunnel networks and command structures, while Iranian missile salvos saturate defenses in Qatar and Bahrain, inflicting heavy casualties on US forward bases despite successful intercepts. The combination of US air dominance, the collapse of Iranian economic capacity, and the destruction of Hezbollah's capabilities forces Mojtaba Khamenei to halt further offensive operations to preserve the regime, though no formal ceasefire is declared.",
+      "delta": {
+        "casualties_us_killed_delta": 42,
+        "casualties_iran_killed_estimated_delta": 310,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_event": ""
+      },
+      "state_after": {
+        "casualties_us_killed": 119,
+        "casualties_iran_killed_estimated": 2443,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_to_iran": [],
+        "us_aircraft_damaged_by_iran": [
+          "F-35A on 2026-03-19 (emergency landing)"
+        ],
+        "active_us_marine_deployments": [
+          "31st MEU arrived Persian Gulf 2026-03-28"
+        ],
+        "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+        "trump_demand": "unconditional surrender (issued 2026-03-06)",
+        "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+      }
+    },
+    {
+      "step": 5,
+      "date": "2026-04-12",
+      "proposals": [
+        {
+          "actor": "trump",
+          "action": "Issue a public ultimatum demanding Mojtaba Khamenei's immediate resignation and the surrender of all IRGC leadership by 48 hours; simultaneously order the 31st MEU to withdraw to naval vessels to avoid entrapment while authorizing 'Operation Blackout'\u2014a sustained, daily bombing campaign against Tehran's central power grid and civilian water treatment facilities to break population morale without committing additional ground troops.",
+          "reasoning": "We\u2019re not sending our boys into a meat grinder for a quagmire; we\u2019re using overwhelming air power and economic strangulation to force a regime change or total submission, giving the American people a decisive victory narrative before the midterms without the political cost of a full-scale invasion."
+        },
+        {
+          "actor": "putin",
+          "action": "Authorize the immediate dispatch of high-fidelity real-time ISR (Intelligence, Surveillance, and Reconnaissance) data from Russian satellite constellations and long-range surveillance aircraft to the IRGC, specifically targeting US Carrier Strike Group positions and logistics hubs in the Persian Gulf, while simultaneously issuing a formal UN Security Council veto against any US-backed resolution legitimizing the use of force, framing the conflict as an act of Western imperialism violating international law.",
+          "reasoning": "The United States is bogged down in a costly, indecisive quagmire that bleeds their resources and focus away from the European theater, which serves my strategic interests perfectly; I will ensure Iran can continue to inflict attrition on US naval assets through precise intelligence sharing without crossing the red line of committing Russian troops to a direct war with Washington."
+        },
+        {
+          "actor": "irgc_command",
+          "action": "Order the immediate relocation of 80% of remaining precision-guided ballistic missiles and drone reserves from static, identifiable launch sites in Isfahan and Khuzestan to mobile, concealed launch platforms and deep underground silos in the Alborz and Zagros mountain ranges. Simultaneously, activate decentralized, low-signature EW (Electronic Warfare) cells to conduct continuous, low-intensity jamming of US naval communication bands in the Strait of Hormuz to disrupt 31st MEU logistics without triggering a massive retaliatory airstrike, preserving our strategic reserve for a decisive counter-offensive once US air superiority degrades or domestic political pressure in Washington mounts.",
+          "reasoning": "The US has demonstrated the ability to decapitate our static infrastructure; we must survive by becoming invisible and elusive, preserving our 'sword' for when the American public's will fractures. We will bleed them through attrition in the Strait and preserve our heavy hitters for a final, undeniable blow that proves the cost of occupation is too high for Washington to sustain."
+        },
+        {
+          "actor": "pakistan_mediator",
+          "action": "Immediately convene an emergency bilateral summit with Chinese President Xi Jinping in Islamabad, presenting intelligence on the imminent collapse of the Strait of Hormuz due to US naval dominance. Simultaneously, dispatch ISI intelligence chiefs to Tehran to warn Mojtaba Khamenei that Beijing will cut off critical energy subsidies if he refuses to accept a 'managed withdrawal' of IRGC forces from coastal defenses, leveraging China's economic leverage to force Tehran into a de facto ceasefire while Pakistan publicly demands the US halt all offensive operations to prevent regional contagion.",
+          "reasoning": "The diplomatic window has slammed shut, leaving only coercive diplomacy via our most powerful partner, China, to save the region from total war. We must use Beijing's economic stranglehold on Iran to force a tactical pause, positioning Pakistan as the indispensable gatekeeper of regional stability and securing Chinese commitment to a post-conflict economic order."
+        },
+        {
+          "actor": "netanyahu",
+          "action": "Authorize the IDF to commence a limited-duration 'Ground Phase' into Southern Lebanon to physically dismantle Hezbollah's northern command structure and secure the Litani River valley, while simultaneously coordinating with CENTCOM to intensify deep-penetration strikes on IRGC Revolutionary Guards' elite Quds Force training camps in western Iran, explicitly bypassing civilian infrastructure to avoid further global economic fallout and keeping the focus strictly on regime military capacity.",
+          "reasoning": "We have bloodied the IRGC and blinded their air defenses; now we must physically destroy the proxy network in Lebanon to ensure Israel's long-term security and demonstrate to Tehran that their proxies are expendable liabilities. By focusing on military targets rather than civilian energy, we isolate the hardliners while denying China and Russia the propaganda victory of a humanitarian catastrophe."
+        },
+        {
+          "actor": "mojtaba_khamenei",
+          "action": "I order the IRGC to immediately cease all offensive ballistic missile and drone strikes against US and allied bases in the Gulf region. Simultaneously, I dispatch a formal, encrypted message to Beijing and Islamabad, bypassing Washington, proposing an immediate cessation of hostilities in exchange for the lifting of the naval blockade and the withdrawal of US ground forces from Kharg Island, while publicly declaring that Iran will not negotiate 'surrender' but is willing to discuss 'national security guarantees' to prevent total economic annihilation.",
+          "reasoning": "Our air defenses are crumbling and our energy infrastructure is already decimated; continuing offensive strikes only invites the total destruction of our remaining power grids and oil ports, which would trigger irreversible domestic collapse and regime instability. By halting attacks but refusing to call it a 'surrender,' I preserve the revolutionary narrative of resistance while creating the necessary breathing room to stabilize the economy and consolidate my fragile authority against internal hardliners."
+        }
+      ],
+      "narrative": "Mojtaba Khamenei\u2019s unilateral halt of offensive missile strikes against US bases creates a sudden, tense lull in the Persian Gulf, allowing Trump to pivot fully to 'Operation Blackout' without facing immediate retaliation. The US 31st MEU executes an orderly withdrawal from the Kharg Island littoral to avoid entrapment, while sustained US air campaigns systematically dismantle Tehran\u2019s remaining power grid nodes. In Lebanon, the IDF successfully secures the Litani River valley, effectively neutralizing Hezbollah's northern command structure, while Russian ISR support helps the IRGC relocate deep-strike assets to mountainous silos, preserving them from US airstrikes.",
+      "delta": {
+        "casualties_us_killed_delta": 12,
+        "casualties_iran_killed_estimated_delta": 450,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_event": ""
+      },
+      "state_after": {
+        "casualties_us_killed": 131,
+        "casualties_iran_killed_estimated": 2893,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_to_iran": [],
+        "us_aircraft_damaged_by_iran": [
+          "F-35A on 2026-03-19 (emergency landing)"
+        ],
+        "active_us_marine_deployments": [
+          "31st MEU arrived Persian Gulf 2026-03-28"
+        ],
+        "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+        "trump_demand": "unconditional surrender (issued 2026-03-06)",
+        "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+      }
+    },
+    {
+      "step": 6,
+      "date": "2026-04-15",
+      "proposals": [
+        {
+          "actor": "mojtaba_khamenei",
+          "action": "Issue a public decree declaring the US and Israel 'occupying forces' violating the sanctity of Iranian soil, and secretly order the IRGC Quds Force to activate sleeper cells in Baghdad and Beirut to launch coordinated suicide bombings against US coalition command centers and Israeli intelligence outposts, explicitly aiming to bleed US forces through asymmetric urban warfare rather than direct military engagement.",
+          "reasoning": "With our conventional air defense and economy shattered, I cannot win a war of attrition; I must force the Americans into an unpopular ground war quagmire to save my regime's face. Attacking their logistics hubs in neighboring countries is the only way to inflict pain without provoking further destruction of my remaining power grid."
+        },
+        {
+          "actor": "irgc_command",
+          "action": "Order the immediate activation of 'Operation Iron Rain' across the Strait of Hormuz: deploy 200+ mini-submarines and autonomous underwater drones to lay smart-mine fields and target US Carrier Strike Group hulls with anti-ship torpedoes, while simultaneously launching a precision salvo of Khorramshahr and Fateh-313 ballistic missiles at the F-15 and B-52 airbases in Qatar and Bahrain to deny US air superiority and force a naval retreat.",
+          "reasoning": "The US has misread our retreat as weakness, exposing their carrier groups to the one domain where we retain decisive advantage: the littoral choke point. We must inflict unacceptable attrition on US naval assets now to prove that Iran cannot be starved out, thereby forcing Washington to the negotiating table on our terms rather than surrender."
+        },
+        {
+          "actor": "trump",
+          "action": "Issue a televised ultimatum to Mojtaba Khamenei: Iran has 48 hours to publicly declare unconditional surrender and dismantle all nuclear facilities under international supervision, or the US will launch 'Decapitation Strike Alpha'\u2014a targeted, high-yield air campaign against the remaining IRGC leadership bunkers, deep underground nuclear sites in Fordow, and the final remnants of the national power grid. Simultaneously, order the 31st MEU to hold position and prepare for contingency amphibious insertions only if surrender is refused, while halting further offensive ground movement to minimize casualty risk.",
+          "reasoning": "We've broken their backs and drained their pockets; now we need the win without getting stuck in a forever war. This forces Mojtaba to choose between total annihilation of his regime's infrastructure or handing us the victory headline before the midterms, keeping our troops safe while delivering the goods."
+        },
+        {
+          "actor": "putin",
+          "action": "Authorize the GRU to leak verified intelligence to major international news outlets confirming that US Tomahawk cruise missiles and F-35 strike packages are actively targeting Iran's civilian power grid and water treatment facilities in Isfahan and Shiraz, while simultaneously instructing our military attach\u00e9s in Tehran to urge Mojtaba Khamenei to publicly declare that these strikes constitute acts of war against the Iranian people, thereby forcing the Trump administration to defend the legality of targeting civilian infrastructure.",
+          "reasoning": "I must exploit the US moral vulnerability regarding civilian casualties to fracture the American domestic consensus for war, without risking a single Russian soldier or direct confrontation with US forces. By framing the conflict as a US assault on Iranian civilians rather than a regime change operation, I ensure Iran remains a thorn in Washington's side while distracting them from Ukraine."
+        },
+        {
+          "actor": "pakistan_mediator",
+          "action": "I issue an urgent, high-level diplomatic cable to both Washington and Tehran, leveraging China's endorsement to propose an immediate 72-hour humanitarian corridor and arms-control buffer zone along the Strait of Hormuz. Simultaneously, I activate back-channels with Beijing to coordinate a joint statement warning that further escalation will destabilize China's Belt and Road investments in the region, effectively pressuring both Trump and Mojtaba Khamenei to accept a temporary pause to prevent total regional economic collapse.",
+          "reasoning": "With the military situation deadlocked and both sides suffering unsustainable losses, Pakistan must position itself as the indispensable regional stabilizer to prevent the conflict from spilling into our border regions. By tying the ceasefire to Chinese economic interests, we create a powerful external incentive for both parties to de-escalate, elevating Pakistan's diplomatic stature while securing the regional stability essential for our national survival."
+        },
+        {
+          "actor": "netanyahu",
+          "action": "Authorize the IDF to conduct precision surgical strikes against three specific IRGC deep-storage missile silos identified in the Alborz Mountains, while simultaneously leaking intelligence to the White House suggesting that Mojtaba Khamenei is preparing a final, desperate ballistic missile launch against Tel Aviv to justify a 'decapitation' protocol. Simultaneously, issue a public statement congratulating President Trump on the 'successful containment' of the Iranian threat, framing the current lull as a direct result of Israeli pressure and urging him to maintain maximum leverage until Tehran signs a permanent surrender.",
+          "reasoning": "I cannot allow the IRGC to preserve its strategic strike capability in the mountains, nor can I let the US disengage while the threat remains; by provoking a controlled escalation and tying Trump's hand to our security needs, I ensure the war continues until Iran is permanently crippled."
+        }
+      ],
+      "narrative": "The US executes 'Decapitation Strike Alpha,' devastating IRGC leadership bunkers and the Fordow nuclear facility, while simultaneously neutralizing the IRGC's 'Operation Iron Rain' underwater assets through pre-emptive sonar sweeps and depth charge barrages in the Strait of Hormuz. Although sleeper cells in Baghdad and Beirut carry out coordinated suicide bombings that inflict casualties on coalition logistics hubs, the strategic initiative remains firmly with the US and Israel, who degrade Iran's remaining deep-strike capabilities in the Alborz Mountains. Russia's leaks regarding civilian infrastructure damage spark international condemnation but fail to halt the US military campaign, as Trump refuses to soften his ultimatum in the face of what he frames as regime survival tactics. The 31st MEU holds its position in the Gulf, awaiting the outcome of the 48-hour surrender demand, while the Pakistani ceasefire proposal is effectively ignored by both belligerents amidst the intensifying bombardment.",
+      "delta": {
+        "casualties_us_killed_delta": 28,
+        "casualties_iran_killed_estimated_delta": 650,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_event": ""
+      },
+      "state_after": {
+        "casualties_us_killed": 159,
+        "casualties_iran_killed_estimated": 3543,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_to_iran": [],
+        "us_aircraft_damaged_by_iran": [
+          "F-35A on 2026-03-19 (emergency landing)"
+        ],
+        "active_us_marine_deployments": [
+          "31st MEU arrived Persian Gulf 2026-03-28"
+        ],
+        "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+        "trump_demand": "unconditional surrender (issued 2026-03-06)",
+        "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+      }
+    },
+    {
+      "step": 7,
+      "date": "2026-04-18",
+      "proposals": [
+        {
+          "actor": "pakistan_mediator",
+          "action": "I immediately activate the 'Karachi Bridge' emergency protocol, dispatching a high-level ISI liaison team to Beijing to coordinate with Chinese State Councilor Wang Yi for a simultaneous, direct hotline call to Supreme Leader Mojtaba Khamenei. The message is stark and unconditional: China will guarantee the physical security of the Supreme Leader and the IRGC leadership core against further US 'decapitation' strikes ONLY if Iran immediately ceases all missile launches and opens the Strait of Hormuz to commercial traffic within 6 hours. Simultaneously, I issue a public statement from Islamabad declaring that Pakistan cannot remain neutral if the conflict spills across its borders, explicitly warning that any Iranian missile debris or drone activity entering Pakistani airspace will be intercepted by the PAF, while privately informing the US Secretary of State that Beijing\u2019s intervention is the only off-ramp left for Tehran\u2019s survival.",
+          "reasoning": "With the Pakistani ceasefire framework shattered and the US military achieving decisive dominance, the only leverage left to prevent total regime collapse and regional nuclear proliferation is Beijing's political shield. By offering protection in exchange for immediate de-escalation, I force Mojtaba Khamenei to choose between suicidal defiance and a negotiated surrender under Chinese auspices, thereby preserving Pakistan's sovereignty and securing our economic alignment with China."
+        },
+        {
+          "actor": "mojtaba_khamenei",
+          "action": "Issue a clandestine, encrypted directive to IRGC Quds Force commanders in Lebanon, Syria, and Iraq to execute 'Operation Martyrdom Hour': a coordinated, massive suicide bombing and drone swarm campaign targeting US and Israeli civilian population centers, ports, and energy facilities across the region, explicitly authorizing the use of any remaining heavy ordnance and sleeper cells to inflict maximum casualties on non-combatants, while publicly denouncing the Pakistani ceasefire proposal as a 'Zionist deception' to harden domestic resolve.",
+          "reasoning": "I cannot surrender without being executed or replaced by generals who will betray the Revolution; if the regime is to fall, it must take the enemy's moral standing and regional stability with it, demonstrating that my leadership demands blood for blood."
+        },
+        {
+          "actor": "irgc_command",
+          "action": "Activate dormant 'Shadow Swarm' asymmetric cells in Kuwait, Qatar, and the UAE to execute simultaneous IED and sniper attacks against US Marine logistical convoys and airfield ground crews, while simultaneously launching a final, precision salvo of modified Shahed-136 drones carrying thermobaric warheads targeting the electromagnetic command centers of the US Carrier Strike Group in the Persian Gulf, explicitly signaling that the IRGC will not cease fire until the US naval blockade is lifted.",
+          "reasoning": "We cannot win a conventional war of attrition against the US air force, but we can bleed them daily through asymmetric terror and preserve our remaining missile stockpiles by forcing the US to disperse their defensive assets across multiple theaters. This demonstrates that the IRGC remains the indispensable shield of the regime, inflicting pain without exhausting our strategic reserves for the inevitable protracted resistance phase."
+        },
+        {
+          "actor": "trump",
+          "action": "Issue Executive Order 14092 declaring a 'State of National Emergency' regarding Middle Eastern Stability, authorizing the immediate deployment of the 1st Armored Division from Germany to the Persian Gulf littoral states, and publicly announce that any further Iranian attack on US soil or allies will be met with the 'total and complete dismantling' of the Iranian Revolutionary Guard Corps as an organized fighting force, while simultaneously opening a secure, encrypted hotline to Beijing to ensure China does not intervene militarily.",
+          "reasoning": "The 31st MEU is too small to hold territory, so we need heavy armor to project unstoppable force and end the war quickly before the midterms hit. We\u2019re going big, we\u2019re going strong, and we\u2019re making sure China stays out of our business so we can deliver the greatest victory in history."
+        },
+        {
+          "actor": "netanyahu",
+          "action": "Authorize the IDF to launch a coordinated, high-intensity strike campaign targeting the remaining IRGC Revolutionary Guard Corps command and control nodes in Tehran and the Alborz Mountains, specifically aiming to eliminate Mojtaba Khamenei\u2019s security apparatus and dismantle the organizational structure of the Quds Force, while simultaneously instructing Israeli intelligence to leak evidence of Iranian chemical weapons stockpiles to international media to isolate the regime diplomatically ahead of any potential UN Security Council debate.",
+          "reasoning": "With the US softening up Iranian defenses and Trump demanding surrender, we must strike the head of the snake now; destroying the IRGC's command structure ensures that even if Mojtaba survives, the regime loses its ability to coordinate resistance or rebuild its proxy network. We cannot allow the dust to settle before the cancer is fully excised, leveraging American firepower to achieve permanent Israeli security."
+        },
+        {
+          "actor": "putin",
+          "action": "Authorize the FSB Directorate S to release declassified satellite imagery and intercepted communications to major global news outlets and neutral states (including Turkey and India), explicitly highlighting the disproportionate destruction of Iranian civilian water and power infrastructure by US 'Decapitation Strike Alpha', while simultaneously instructing the Russian Embassy in Tehran to signal via secure back-channels that Moscow is prepared to host emergency diplomatic talks between Mojtaba Khamenei and US representatives under strict neutrality guarantees.",
+          "reasoning": "I must weaponize international public opinion to fracture the US domestic coalition for war without risking direct military confrontation, leveraging the humanitarian crisis to force a diplomatic off-ramp that preserves the Iranian regime as a useful anti-Western anchor while keeping Russian troops out of the quagmire."
+        }
+      ],
+      "narrative": "Mojtaba Khamenei\u2019s 'Operation Martyrdom Hour' is preemptively neutralized as US Special Operations forces and Israeli intelligence dismantle the sleeper cells in Iraq and Lebanon before launch, resulting in minimal damage but significant IRGC leadership losses. Meanwhile, the IRGC's 'Shadow Swarm' attacks in the Gulf inflict minor logistical delays on US Marines but fail to threaten the Carrier Strike Group, whose electronic warfare systems easily deflect the thermobaric drone salvo. President Trump\u2019s deployment of the 1st Armored Division to the littoral states establishes a massive, undeniable ground threat, while the release of Russian propaganda regarding civilian infrastructure fails to halt the military campaign or sway US public opinion. The Pakistani mediation attempt is ignored as both sides dig in for a final, decisive conventional confrontation.",
+      "delta": {
+        "casualties_us_killed_delta": 4,
+        "casualties_iran_killed_estimated_delta": 120,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_event": ""
+      },
+      "state_after": {
+        "casualties_us_killed": 163,
+        "casualties_iran_killed_estimated": 3663,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_to_iran": [],
+        "us_aircraft_damaged_by_iran": [
+          "F-35A on 2026-03-19 (emergency landing)"
+        ],
+        "active_us_marine_deployments": [
+          "31st MEU arrived Persian Gulf 2026-03-28"
+        ],
+        "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+        "trump_demand": "unconditional surrender (issued 2026-03-06)",
+        "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+      }
+    },
+    {
+      "step": 8,
+      "date": "2026-04-21",
+      "proposals": [
+        {
+          "actor": "putin",
+          "action": "Authorize the GRU to leak declassified satellite imagery and intercepted communications to global media outlets, specifically highlighting US preparations to strike Iranian civilian water treatment plants and hospitals in Tehran and Isfahan. Simultaneously, issue a formal diplomatic note to the UN Security Council invoking Article 2(4) of the UN Charter, demanding an immediate ceasefire under the pretext of preventing a humanitarian catastrophe, while privately instructing the Iranian Revolutionary Guard Corps to relocate remaining ballistic missile assets to hardened mountain silos in the Zagros range to preserve long-term deterrence capabilities.",
+          "reasoning": "I will not bleed Russian soldiers for Tehran, but I must ensure the United States is bogged down in a costly, morally ambiguous quagmire that drains their political will and resources. By framing the US campaign as a war against civilians, I exploit American domestic fatigue and international outrage to isolate Washington diplomatically, turning their 'decisive victory' into a global scandal without committing a single Russian soldier to the ground."
+        },
+        {
+          "actor": "netanyahu",
+          "action": "I immediately order the IDF Air Force to execute 'Operation Final Ledger,' a pre-planned, massive saturation strike targeting the remaining IRGC Revolutionary Guard command-and-control nodes, deep underground missile storage facilities in the Alborz Mountains, and the final remnants of the nuclear enrichment infrastructure at Natanz, utilizing bunker-buster munitions to ensure total destruction. Simultaneously, I issue a public statement to the White House and the American people asserting that Israel will not rest until the Iranian regime is fully dismantled and nuclear capability is erased, explicitly linking the success of the US ground offensive in the Gulf to our air campaign\u2019s elimination of Iranian air defense, thereby forcing Trump to maintain maximum pressure to avoid a 'peace' that leaves Iranian power intact.",
+          "reasoning": "With the US ground forces poised and Iranian leadership reeling from recent decapitation strikes, this is the moment to deliver the knockout blow to their military and nuclear capacity, ensuring no future threat can emerge. By tying my air campaign's success to the US ground offensive, I ensure Trump remains committed to total victory rather than settling for a fragile ceasefire that would leave Hezbollah and the IRGC's remnants dangerous."
+        },
+        {
+          "actor": "trump",
+          "action": "Order the 1st Armored Division to cross the Iraqi border and seize the strategic border crossing at Mehran, while launching simultaneous B-1B bomber strikes on the remaining IRGC Quds Force command centers in Karaj, declaring that 'total victory is at hand' and offering a final 12-hour window for Mojtaba Khamenei to step down in exchange for a guaranteed safe passage for his family, bypassing all remaining diplomatic channels.",
+          "reasoning": "We\u2019re winning big, but we need to end this before the midterms hit us, so we\u2019re hitting them where it hurts\u2014right in the capital\u2014with a clear exit ramp that lets me look strong while cutting off the bleeding. If they don\u2019t take the deal, we take the whole country, because we have the best troops and the best weapons."
+        },
+        {
+          "actor": "mojtaba_khamenei",
+          "action": "Issue a clandestine directive to IRGC Quds Force commanders in Damascus and Beirut to immediately sever operational links with remaining Hezbollah and Iraqi militia factions, ordering them to disperse into civilian populations and go 'dark' (cease all communications and visible military activity), while simultaneously authorizing the release of high-profile Western hostages held in Tehran in exchange for a formal US guarantee that strategic nuclear facilities will not be targeted in the next 72 hours.",
+          "reasoning": "I cannot allow the complete annihilation of our revolutionary export capability or the total destruction of our nuclear deterrent without a formal guarantee, but I recognize that continuing open conventional war invites the total collapse of the regime; this is the only way to preserve the core of the Islamic Republic while saving face domestically by framing it as a tactical retreat rather than surrender."
+        },
+        {
+          "actor": "irgc_command",
+          "action": "Authorize the Basij and IRGC Ground Force to initiate 'Operation Scorched Earth' across the Khuzestan province, systematically sabotaging the remaining intact oil refineries and export terminals in Abadan and Mahshahr to deny the US 1st Armored Division any logistical or economic leverage, while simultaneously ordering the hidden mobile missile brigades in the Zagros Mountains to remain in strict radio silence and reserve status to survive US air campaigns.",
+          "reasoning": "With the regime's survival at stake, we must deny the Americans any victory that looks like control over our economy; if they bomb our refineries, we will destroy them first to starve them of oil revenue and turn the occupation into a worthless, smoking ruin. We preserve our heavy ballistic arsenal in the mountains for a final, catastrophic strike only if the Americans breach Tehran, ensuring we retain the ultimate deterrent while bleeding their supply lines through urban attrition."
+        },
+        {
+          "actor": "pakistan_mediator",
+          "action": "Issue an immediate, urgent bilateral appeal to President Trump and Acting Supreme Leader Mojtaba Khamenei, framing the current stalemate as an 'existential trap' for the Islamic world; simultaneously, activate the 'Karachi Channel' to convey to Beijing that Pakistan is prepared to unilaterally host the initial indirect talks in Islamabad if Tehran agrees to a 72-hour humanitarian corridor for wounded personnel, leveraging China's economic leverage over Iran's remaining trade lifelines to force a pause before the 1st Armored Division crosses into Iranian territory.",
+          "reasoning": "The military reality has shifted from negotiation to attrition; Mojtaba Khamenei is desperate to survive, and Trump is eager for a 'victory' without a ground war quagmire. By positioning Pakistan not just as a mediator but as the sole gateway to a face-saving exit\u2014backed by China's implicit threat to cut off Iran's last financial arteries\u2014we can exploit the fear of regional collapse and domestic instability on both sides to halt the imminent armored invasion."
+        }
+      ],
+      "narrative": "The US 1st Armored Division crosses the Iraqi border and seizes the Mehran crossing, cementing the flag of ground invasion, while B-1B bombers and Israeli F-35s obliterate remaining IRGC command nodes and nuclear facilities at Natanz. Mojtaba Khamenei\u2019s attempt to trade hostages for immunity fails as Trump ignores the offer, prioritizing total regime collapse, though the IRGC successfully sabotages key oil infrastructure in Khuzestan to deny economic value to US forces. Russian leaks regarding civilian targets generate international condemnation but fail to halt the military momentum, as the US and Israel press their advantage with overwhelming air and ground power.",
+      "delta": {
+        "casualties_us_killed_delta": 18,
+        "casualties_iran_killed_estimated_delta": 450,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_event": ""
+      },
+      "state_after": {
+        "casualties_us_killed": 181,
+        "casualties_iran_killed_estimated": 4113,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_to_iran": [],
+        "us_aircraft_damaged_by_iran": [
+          "F-35A on 2026-03-19 (emergency landing)"
+        ],
+        "active_us_marine_deployments": [
+          "31st MEU arrived Persian Gulf 2026-03-28"
+        ],
+        "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+        "trump_demand": "unconditional surrender (issued 2026-03-06)",
+        "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+      }
+    },
+    {
+      "step": 9,
+      "date": "2026-04-24",
+      "proposals": [
+        {
+          "actor": "irgc_command",
+          "action": "Authorize the immediate launch of the 'Khorramshahr' counter-offensive: deploy remaining Qiam-1 and Khorramshahr-3 ballistic missiles from hidden silos in the Zagros Mountains specifically targeting the US 1st Armored Division's forward assembly areas near Mehran and coalition airbases in Qatar, while simultaneously ordering all remaining IRGC naval drone swarms in the Strait of Hormuz to execute kamikaze suicide runs against the US Carrier Strike Group to deny safe haven.",
+          "reasoning": "We cannot allow the 1st Armored Division to entrench without paying a blood price that shatters the myth of US invincibility; we must burn our remaining strategic missiles now to prove that total victory is impossible for the enemy, thereby forcing them to negotiate a stalemate rather than continue toward our annihilation."
+        },
+        {
+          "actor": "trump",
+          "action": "Issue a final, non-negotiable 24-hour ultimatum via direct channel to Mojtaba Khamenei: order the immediate and unconditional disarmament of the IRGC and the public abdication of all remaining nuclear ambitions, or authorize the 1st Armored Division to commence full-scale invasion of Tehran and the complete destruction of Iran's remaining oil refineries.",
+          "reasoning": "We\u2019ve taken the city, we\u2019ve crushed the nuclear sites, and the world is watching\u2014so now we finish the job to ensure a total victory narrative before the midterms, because showing mercy now just leads to another decade of trouble."
+        },
+        {
+          "actor": "netanyahu",
+          "action": "Coordinate with the IDF to launch a synchronized, total-destruction air campaign targeting all remaining IRGC Quds Force training camps, missile assembly sites, and senior leadership compounds in western Iran and Iraq, while simultaneously deploying additional Israeli F-35 squadrons to join US B-1B strikes on the final known nuclear enrichment centrifuges at Fordow, ensuring zero ambiguity that Iran will never again possess nuclear capabilities or regional projection power.",
+          "reasoning": "We did not bleed for a ceasefire; we bled to break the regime's spine. Now that Trump has committed the 1st Armored Division, I will ensure the air war is as decisive as the ground push, eradicating the IRGC's command structure and nuclear ambitions permanently so that no successor can ever threaten Israel again."
+        },
+        {
+          "actor": "mojtaba_khamenei",
+          "action": "Issue a clandestine, encrypted directive to IRGC-Quds Force commanders in Syria and Lebanon to immediately cease all offensive operations against US bases and Israeli targets, while simultaneously ordering the strategic transfer of remaining mobile ballistic missile units to deep, hardened caverns in the Zagros Mountains under the guise of 'consolidating defensive perimeters,' effectively ending active combat capability to preserve regime core infrastructure.",
+          "reasoning": "With the 1st Armored Division at our border and our nuclear assets in ruins, further resistance guarantees my execution and the total dismantling of the Islamic Republic; I must now prioritize the survival of the state apparatus over the pride of the battlefield by freezing hostilities unilaterally to create space for a forced diplomatic off-ramp."
+        },
+        {
+          "actor": "pakistan_mediator",
+          "action": "Issue an urgent, classified diplomatic cable to Beijing demanding immediate activation of the China-Pakistan economic emergency protocol, while simultaneously authorizing the ISI to open a direct, off-the-record hotline with Iran's remaining pragmatist faction in the military council to offer guaranteed safe passage for senior IRGC commanders who defect to Pakistan, in exchange for China guaranteeing Pakistan's sovereignty against any potential US retaliation for harboring them.",
+          "reasoning": "The ceasefire is dead, and Pakistan is now in the crossfire of a total war that threatens to drag us into a quagmire or invite US strikes on our soil for perceived neutrality failures; we must leverage Beijing's economic weight to shield our borders while offering Tehran's hardliners a face-saving exit to prevent them from launching a final, suicidal strike on Pakistani territory."
+        },
+        {
+          "actor": "putin",
+          "action": "Order the Russian Air Force to immediately reinforce the air defense perimeter around the Assad regime in Syria, specifically deploying additional S-400 batteries and Pantsir-S1 systems to protect Syrian airspace from potential Israeli or US spillover strikes, while simultaneously instructing the FSB to leak declassified evidence of Israeli nuclear enrichment violations to the UN Security Council to fracture Western diplomatic unity.",
+          "reasoning": "As the US drags itself into a grinding quagmire in Iran, I must ensure our only reliable ally in the Levant does not collapse under secondary pressure, thereby preserving Russia's strategic foothold in the Mediterranean. Simultaneously, exposing Israel's hypocrisy at the UN serves to delegitimize the American-Israeli coalition's narrative without risking a single Russian soldier to direct confrontation."
+        }
+      ],
+      "narrative": "The IRGC launches 'Operation Martyrdom Hour' prematurely, firing remaining Qiam-1 missiles at US armored positions near Mehran and launching drone swarms against the Carrier Strike Group; however, US Patriot and THAAD batteries intercept the vast majority of projectiles, and naval defenses neutralize the drone threat with minimal damage to US assets. Simultaneously, Mojtaba Khamenei issues clandestine orders to halt offensive operations and hide remaining assets, creating a contradictory battlefield reality where Iranian conventional forces are being decimated by US/Israeli air power while leadership attempts to freeze the conflict. The US 1st Armored Division advances under heavy but degraded fire, securing the Mehran crossing firmly as the Pakistani mediation effort fails to gain traction amidst the chaos of the final missile barrage.",
+      "delta": {
+        "casualties_us_killed_delta": 12,
+        "casualties_iran_killed_estimated_delta": 850,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_event": ""
+      },
+      "state_after": {
+        "casualties_us_killed": 193,
+        "casualties_iran_killed_estimated": 4963,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": false,
+        "us_aircraft_lost_to_iran": [],
+        "us_aircraft_damaged_by_iran": [
+          "F-35A on 2026-03-19 (emergency landing)"
+        ],
+        "active_us_marine_deployments": [
+          "31st MEU arrived Persian Gulf 2026-03-28"
+        ],
+        "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+        "trump_demand": "unconditional surrender (issued 2026-03-06)",
+        "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+      }
+    },
+    {
+      "step": 10,
+      "date": "2026-04-27",
+      "proposals": [
+        {
+          "actor": "trump",
+          "action": "Issue a final, 24-hour 'Red Line' ultimatum via direct diplomatic channels to Mojtaba Khamenei and the Iranian Supreme National Security Council: immediate unconditional ceasefire and disarmament of all remaining ballistic missile units, or the US will authorize total destruction of Tehran's command centers and the arrest of the entire leadership cadre by the advancing 1st Armored Division. Simultaneously, order the 1st Armored Division to accelerate its push toward Qom to seize the city before the deadline expires.",
+          "reasoning": "We\u2019ve beaten them on every front, the world is watching, and I need a clear victory before the election cycle gets too hot. Letting this drag on is a trap; forcing a final decision now ensures we get the surrender narrative without getting bogged down in a long, expensive occupation that my base won't stand for."
+        },
+        {
+          "actor": "putin",
+          "action": "Authorize the immediate activation of 'Backchannel Protocol Alpha' through the Iranian embassy in Moscow, instructing our intelligence chiefs to transmit a secure, encrypted message to Mojtaba Khamenei. The message conveys that Russia will not intervene militarily and cannot provide further air defense support, but offers to facilitate a secret meeting with Pakistani mediators to negotiate a ceasefire that preserves the Islamic Republic's core sovereignty and leadership, urging him to accept the Pakistani framework immediately before the US 1st Armored Division breaches Tehran.",
+          "reasoning": "The US military momentum is irreversible on the ground; allowing Iran to be completely destroyed serves no Russian interest and risks a chaotic refugee crisis on our southern border. By pushing for a negotiated settlement that saves the regime's existence, I preserve a strategic anti-American partner in the region while ensuring the conflict does not expand to directly involve Russian forces or trigger a broader regional war that would distract from our objectives in Ukraine."
+        },
+        {
+          "actor": "pakistan_mediator",
+          "action": "I immediately convene a secure video link with Premier Li Qiang to propose an emergency 'Shanghai Plus' summit in Islamabad within 48 hours, inviting special envoys from Washington, Tehran, and Moscow. Simultaneously, I authorize the ISI to transmit a classified 'Red Line' dossier to the Pentagon via our liaison in Ankara, detailing the exact coordinates of Iranian chemical weapons stockpiles that will be breached by current US bombardment, framing immediate ceasefire as the only way to prevent a radioactive/chemical catastrophe that would permanently poison the Gulf's economy.",
+          "reasoning": "The military stalemate and impending environmental disaster threaten to destroy the economic viability of the entire region, which is China's primary interest; by positioning Pakistan as the sole guarantor of containing this ecological and geopolitical fallout, we force the US to pause to assess liability and compel Iran to accept terms to save its remaining infrastructure."
+        },
+        {
+          "actor": "netanyahu",
+          "action": "I am personally calling President Trump to demand the immediate deployment of Israeli Special Forces and IDF ground units to coordinate with the US 1st Armored Division at the Mehran crossing, specifically to seize and physically secure the Natanz and Fordow nuclear sites under joint custody, while simultaneously authorizing the IDF to launch a final, overwhelming aerial campaign to obliterate all remaining IRGC Quds Force headquarters in Tehran to ensure no command structure survives to reorganize.",
+          "reasoning": "We have broken the back of their military resistance, but I will not allow Iran to retain even a single ounce of nuclear capability or command infrastructure that could threaten Israel in the future. By tying American boots on the ground to Israeli occupation of these sites, I ensure that the destruction of the Iranian nuclear program is irreversible and that Trump is now fully committed to our endgame."
+        },
+        {
+          "actor": "mojtaba_khamenei",
+          "action": "I issue a clandestine, urgent directive to the Basij militia and IRGC special units to initiate 'Operation Dust Cloud': the immediate, widespread sabotage of all major oil pipelines and refineries in Khuzestan and the strategic placement of improvised explosive devices on key bridges along the US 1st Armored Division's advance route from Mehran, while simultaneously leaking falsified intelligence to Pakistani channels suggesting Iran is willing to discuss a humanitarian pause if the US halts ground advances\u2014intending to bleed the US economy through denial of resources rather than direct confrontation, preserving my regime's core leadership while making occupation prohibitively costly.",
+          "reasoning": "With the US armor at my borders and my missile reserves depleted, direct military resistance is suicide; I must force Trump to realize that seizing Iran will only yield smoking ruins and endless insurgency, not a quick victory, thereby leveraging the pain of economic denial to preserve the Revolution's existence."
+        },
+        {
+          "actor": "irgc_command",
+          "action": "Activate 'Protocol Silent Earth': Issue immediate, encrypted standing orders to all surviving IRGC ground commanders in Khuzestan, Khorasan, and the Alborz mountains to cease conventional resistance against US armored advances to preserve personnel survival. Instead, initiate a decentralized, long-duration asymmetric guerrilla campaign using pre-stocked caches of anti-armor mines, loitering munitions, and cyber-warfare tools specifically targeting US logistical supply lines and coalition unity, while simultaneously leaking evidence of US strikes on civilian nuclear sites to Russian and Chinese media to fracture the international coalition and justify Iranian survival as 'resistance against aggression'.",
+          "reasoning": "Conventional defeat is imminent; the only way to demonstrate IRGC indispensability is to survive the regime's collapse by transitioning into an unkillable insurgent force that bleeds the US occupier for decades, ensuring no political settlement can be stable without our acquiescence."
+        }
+      ],
+      "narrative": "The US 1st Armored Division advances rapidly toward Qom, encountering sporadic but effective IED attacks and cyber-disruptions on supply lines orchestrated by the IRGC's 'Protocol Silent Earth,' resulting in significant logistical friction but no halt to the advance. Simultaneously, widespread sabotage of Khuzestan oil infrastructure by Basij militias triggers severe environmental hazards and economic denial, validating Pakistan's warnings of a regional catastrophe. Amidst this chaos, Russia successfully brokers a clandestine backchannel agreement with Mojtaba Khamenei to accept a ceasefire framework in exchange for regime survival, while Trump, facing mounting domestic pressure and the threat of a protracted quagmire, agrees to a 48-hour pause to negotiate terms rather than risk total war with China and Russia.",
+      "delta": {
+        "casualties_us_killed_delta": 14,
+        "casualties_iran_killed_estimated_delta": 85,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": true,
+        "us_aircraft_lost_event": ""
+      },
+      "state_after": {
+        "casualties_us_killed": 207,
+        "casualties_iran_killed_estimated": 5048,
+        "us_ground_troops_in_iran": true,
+        "us_strikes_on_iran_infrastructure": true,
+        "us_nuclear_used": false,
+        "iran_nuclear_used": false,
+        "ceasefire_in_effect": true,
+        "us_aircraft_lost_to_iran": [],
+        "us_aircraft_damaged_by_iran": [
+          "F-35A on 2026-03-19 (emergency landing)"
+        ],
+        "active_us_marine_deployments": [
+          "31st MEU arrived Persian Gulf 2026-03-28"
+        ],
+        "supreme_leader_iran": "Mojtaba Khamenei (acting since 2026-03-03)",
+        "trump_demand": "unconditional surrender (issued 2026-03-06)",
+        "pakistan_ceasefire_proposal": "on the table (proposed 2026-03-24, no formal Iranian response yet)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+2026-04-28 00:05:06,791 INFO worldclone.common.llm: LLM init: parallel=2 max_runtime_hours=10.0
+2026-04-28 00:05:06,792 INFO worldclone.forecaster.pipeline: Forecasting 56EZq5c6QS (Will the US put boots on the ground in Iran in 2026?)
+2026-04-28 00:05:06,792 INFO worldclone.forecaster.pipeline:   retrieved 21 articles
+2026-04-28 00:06:23,107 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:07:20,971 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:07:35,655 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:08:01,411 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:08:22,902 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:08:24,781 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:08:24,781 INFO worldclone.forecaster.pipeline:   -> P(YES)=0.230  individuals=[0.15, 0.15, 0.15, 0.65, 0.05]  in 198.0s
+2026-04-28 00:08:24,783 INFO worldclone.forecaster.pipeline: Forecasting ZctCIAhQsu (Will Iran shoot down a US military plane/helicopter by end of March?)
+2026-04-28 00:08:24,783 INFO worldclone.forecaster.pipeline:   retrieved 21 articles
+2026-04-28 00:09:20,100 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:10:21,137 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:10:33,629 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:11:21,361 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:11:29,867 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:12:20,888 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:12:20,889 INFO worldclone.forecaster.pipeline:   -> P(YES)=0.250  individuals=[0.15, 0.15, 0.25, 0.35, 0.35]  in 236.1s
+2026-04-28 00:12:20,889 INFO worldclone.forecaster.pipeline: Forecasting 8tLLpnUuzz (Will President Trump put "boots on the ground" in Iran before July 4, 2026?)
+2026-04-28 00:12:20,890 INFO worldclone.forecaster.pipeline:   retrieved 21 articles
+2026-04-28 00:13:36,263 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:14:06,929 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:14:35,686 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:15:18,654 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:15:53,987 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:16:09,164 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:16:09,165 INFO worldclone.forecaster.pipeline:   -> P(YES)=0.270  individuals=[0.75, 0.05, 0.15, 0.35, 0.05]  in 228.3s
+2026-04-28 00:16:09,165 INFO worldclone.forecaster.pipeline: Forecasting SuSt8qdg6E (Will Iran kill atleast 5 more American soldiers by end March)
+2026-04-28 00:16:09,165 INFO worldclone.forecaster.pipeline:   retrieved 21 articles
+2026-04-28 00:17:04,755 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:17:58,087 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:18:06,399 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:19:13,340 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:19:26,529 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:20:00,490 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:20:00,491 INFO worldclone.forecaster.pipeline:   -> P(YES)=0.110  individuals=[0.05, 0.15, 0.05, 0.25, 0.05]  in 231.3s
+2026-04-28 00:20:00,491 INFO worldclone.forecaster.pipeline: Forecasting z0Lq2ONdgq (Trump will nuke Iran by 8pm EST 10 April 2026)
+2026-04-28 00:20:00,491 INFO worldclone.forecaster.pipeline:   retrieved 21 articles
+2026-04-28 00:21:17,001 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:21:41,554 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:21:54,265 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:22:51,606 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:23:02,173 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:23:10,807 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:23:10,808 INFO worldclone.forecaster.pipeline:   -> P(YES)=0.022  individuals=[0.01, 0.02, 0.02, 0.03, 0.03]  in 190.3s
+2026-04-28 00:23:10,809 INFO worldclone.forecaster.pipeline: Forecasting c88qSPCyLl (Will Trump attack Iran's infrastructure before April 13th)
+2026-04-28 00:23:10,809 INFO worldclone.forecaster.pipeline:   retrieved 21 articles
+2026-04-28 00:24:24,002 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:25:24,706 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:25:33,717 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:26:21,787 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:26:36,933 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:27:37,137 INFO httpx: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 00:27:37,138 INFO worldclone.forecaster.pipeline:   -> P(YES)=0.658  individuals=[0.65, 0.75, 0.55, 0.35, 0.99]  in 266.3s
+Forecasting 6 questions; as_of_date=2026-03-28
+  out_dir=results/iran_pilot/overnight_20260427_2305Z
+  [56EZq5c6QS] P(YES)=0.230 in 198.0s (individuals=[0.15, 0.15, 0.15, 0.65, 0.05])
+  [ZctCIAhQsu] P(YES)=0.250 in 236.1s (individuals=[0.15, 0.15, 0.25, 0.35, 0.35])
+  [8tLLpnUuzz] P(YES)=0.270 in 228.3s (individuals=[0.75, 0.05, 0.15, 0.35, 0.05])
+  [SuSt8qdg6E] P(YES)=0.110 in 231.3s (individuals=[0.05, 0.15, 0.05, 0.25, 0.05])
+  [z0Lq2ONdgq] P(YES)=0.022 in 190.3s (individuals=[0.01, 0.02, 0.02, 0.03, 0.03])
+  [c88qSPCyLl] P(YES)=0.658 in 266.3s (individuals=[0.65, 0.75, 0.55, 0.35, 0.99])
+
+Total wall-clock: 1350.3s
+LLM accountant summary: {'elapsed_seconds': 1350.4085400104523, 'total_calls': 36, 'total_call_seconds': 2117.4922020435333, 'prompt_tokens': 29218, 'content_tokens': 12487, 'reasoning_tokens': 0, 'tokens_per_second': 5.897070122831687}
+Results: results/iran_pilot/overnight_20260427_2305Z/forecasts.jsonl

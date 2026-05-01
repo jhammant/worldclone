@@ -1,0 +1,72 @@
+{
+  "_metadata": {
+    "purpose": "retry of failed forecasts",
+    "as_of_date": "2026-05-01"
+  },
+  "games": [
+    {
+      "id": "nba-2026-05-02-phi-bos-g7",
+      "sport": "nba",
+      "season": "2025-26",
+      "game_date": "2026-05-02",
+      "home_team": "Boston Celtics",
+      "away_team": "Philadelphia 76ers",
+      "home_team_short": "BOS",
+      "away_team_short": "PHI",
+      "is_playoff": true,
+      "series_context": "Eastern Conference 1st Round, Game 7. Series tied 3-3. Winner advances to Round 2.",
+      "venue": "TD Garden, Boston",
+      "vegas_home_moneyline": -310,
+      "vegas_away_moneyline": 250,
+      "vegas_spread": -8.0,
+      "vegas_total": null,
+      "actual_home_score": null,
+      "actual_away_score": null,
+      "actual_winner": null,
+      "notes": "Heavy Celtics favorites at home in G7. PHI 49-40 RS, BOS 59-29 RS."
+    },
+    {
+      "id": "nhl-2026-05-01-buf-bos-g6",
+      "sport": "nhl",
+      "season": "2025-26",
+      "game_date": "2026-05-01",
+      "home_team": "Boston Bruins",
+      "away_team": "Buffalo Sabres",
+      "home_team_short": "BOS",
+      "away_team_short": "BUF",
+      "is_playoff": true,
+      "series_context": "Eastern 1st Round, Game 6. Sabres lead series 3-2. Bruins won G5 in OT on Pastrnak goal \u2014 facing elimination at home.",
+      "venue": "TD Garden, Boston",
+      "vegas_home_moneyline": -110,
+      "vegas_away_moneyline": -115,
+      "vegas_spread": null,
+      "vegas_total": null,
+      "actual_home_score": null,
+      "actual_away_score": null,
+      "actual_winner": null,
+      "notes": "Pick'em line. BUF division-best 50-23 RS; BOS 4th in Atlantic but G5 OT win swung momentum."
+    },
+    {
+      "id": "epl-2026-05-03-mun-liv",
+      "sport": "epl",
+      "season": "2025-26",
+      "game_date": "2026-05-03",
+      "home_team": "Manchester United",
+      "away_team": "Liverpool",
+      "home_team_short": "MUN",
+      "away_team_short": "LIV",
+      "is_playoff": false,
+      "series_context": "Premier League matchday. North-west marquee derby at Old Trafford.",
+      "venue": "Old Trafford",
+      "vegas_home_moneyline": 130,
+      "vegas_away_moneyline": 175,
+      "vegas_draw_moneyline": 290,
+      "vegas_spread": null,
+      "vegas_total": null,
+      "actual_home_score": null,
+      "actual_away_score": null,
+      "actual_winner": null,
+      "notes": "3-way market. Books install MUN as slight home favorite (+130) over LIV (+175) with draw +290. Tight 3-way."
+    }
+  ]
+}
